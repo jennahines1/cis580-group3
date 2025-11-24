@@ -10,11 +10,8 @@ The version, maxOS, Linux, or Windows depends on the system you have available.
 ## Download the LLM Models
 The Following LLM Models will be Utilized with Ollama: 
 Gemma3
-
 Llava
-
 Qwen3-vl
-
 Granite3.2-vision
 
 
