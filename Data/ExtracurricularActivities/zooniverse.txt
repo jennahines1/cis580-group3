@@ -21,13 +21,13 @@ As an admin, I want to annotate news video segments and extract a topic for each
 As an admin, I want to filter and rank videos based on A/V quality aspects.	
 As an admin, I want to get a quick assessment of whether audio material has been edited before the upload.	
 As an admin, I want to prefilter nudity content.	
-As an admin, I want to prefilter content using search based on low­level asset information.	
+As an admin, I want to prefilter content using search based on lowÂ­level asset information.	
 As an admin, I want to automatically validated the ingested contents for copyright infringement.	
-As an admin, I want to prefilter the content using search on high­level asset information such as metadata and tags either recognized by the system of provided by the user.	
+As an admin, I want to prefilter the content using search on highÂ­level asset information such as metadata and tags either recognized by the system of provided by the user.	
 As a Zooniverse admin, I want to assess how interesting or appealing or complex a picture is based on automated analysis, citizen annotations, and comments on Talk.	
 As a Zooniverse admin, I want to detect when a scientist should be prompted to look at a subject, based on annotations and information from Talk comments.	
 As a Zooniverse admin, I want to identify volunteer types.
-As a Zooniverse admin, I want to preclassify the Galaxy Zoo images using simple low­level image features.	
+As a Zooniverse admin, I want to preclassify the Galaxy Zoo images using simple lowÂ­level image features.	
 As a Zooniverse admin, I want to automatically detect Snapshot Serengeti images with no classifiable animals in them.
 As a Zooniverse admin, I want to perform automatic image series detection for the case of timestamping malfunction in Snapshot Serengeti images.	
 As a Zooniverse admin, I want to perform automatic animal species preclassification in Snapshot Serengeti.	
@@ -40,7 +40,7 @@ As a Zooniverse admin, I want to perform automatic preclassification of plankton
 As a Zooniverse admin, I want to perform automatic worm motion analysis to reduce video duration in Worm Watch Lab.	
 As a Zooniverse admin, I want to automatically detect the time in a Worm Watch Lab video where the worm lays an egg.	
 As a Zooniverse admin, I want to detect important features such as areas of flooding, damage, temporary shelters, blocked roads etc in the satellite images.	
-As a Zooniverse admin, I want to assess the probability/weight of a volunteer’s classification based on their experience.	
+As a Zooniverse admin, I want to assess the probability/weight of a volunteerâ€™s classification based on their experience.	
 As a Zooniverse admin, I want to perform prefiltering of the images to remove artefacts such as bright stars and camera read errors.	
 As a Zooniverse admin, I want to detect moving and transient objects in the images.	
 As a Zooniverse admin, I want to remove background noise and distracting sounds from the audio files.	
