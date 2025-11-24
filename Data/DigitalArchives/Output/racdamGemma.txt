@@ -1,0 +1,22 @@
+**High-Level Requirements Summary:**
+The system manages digitized archival materials, enabling researcher and donor access with rights management and access control. Key areas include: rights application, restricted access, metadata management (automated generation & batch editing), access control (IP/user-based), workflow support (copy creation, metadata), and administrative user management.
+
+**Functional Requirements:**
+1.  Rights Application
+2.  Restricted Access (file/group)
+3.  Metadata Management (batch edit, generate)
+4.  Access Control (IP, User, Groups/Roles)
+5.  Workflow Operations (copy creation, metadata)
+6.  Donor Support (material upload, access)
+7.  Researcher Support (search, download, stream, citation)
+8.  Admin User Management (Groups/Roles, Authentication)
+
+**Non-Functional Requirements:**
+*   Performance: Responsive, efficient.
+*   Scalability: Handle increasing data volume and users.
+*   Usability: Intuitive interface for all users.
+*   Security: Robust access controls, strong authentication.
+*   Reliability: Stable operation, minimal downtime.
+*   Maintainability: Easily maintained and updated.
+*   Data Integrity: Accurate and consistent metadata.
+*   Auditability: Comprehensive audit trail of user actions.
