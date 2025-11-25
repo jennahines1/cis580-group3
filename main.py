@@ -1,5 +1,15 @@
-# File to Input Likert Scale Data for Software/Metrics Visualizations (Graphs)
+import string
+import numpy as np
+import pandas as pd
+import os
+import matplotlib
 
+
+
+
+
+# File to Input Likert Scale Data for Software/Metrics Visualizations (Graphs)
+likert_scale = ['Unambiguity', 'Consistency', 'Completeness', 'Modifiability', 'Feasability', 'Clarity', 'Testability', 'Traceability', 'Usability', 'Correctness', 'Compatibility', 'Security']
 
 # Array/List of Types of LLM Output Categories (High-level Summary, Use cases, etc)
 
