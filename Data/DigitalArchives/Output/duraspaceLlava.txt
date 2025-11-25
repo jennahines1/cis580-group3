@@ -1,0 +1,56 @@
+ The document "duraspace.txt" outlines various functional and non-functional requirements for a digital asset management system (DAMS). Here is a summary of the main points:
+
+Functional Requirements:
+
+* As a repository manager, I want to know all the collections and objects in the DAMS for which I have custodial responsibility.
+* As a repository manager, I want to update repository information in one place and be assured updates will be propagated to all relevant places.
+* As a repository manager, I want to constrain curatorial access to my units assets to staff members of my unit and to DAMS managers having universal access.
+* As a user, I want to list all the collections and objects in the DAMS that belong to a library unit.
+* As a user, I want to be able to contact repositories.
+* As the DAMS manager, I want to be able to list for browsing all formal collections represented in the DAMS along with the appropriate relationships.
+* As a repository manager, I want to know all the collections for which I have curatorial responsibility.
+* As a repository manager, I want to compose collections, limiting the collection to the items sharing the same provenance, limiting the collection to represent a part of a collection have a singular provenance, or assembly a collection from other collections and objects.
+* As a repository manager, I want to say one collection is related to another collection.
+* As a repository manager, I want to describe a collection, including its title, it's inclusive / bulk dates, its language(s), and many other aspects.
+* As a repository manager, I want to indicate names related to the collection either as creator, source, or subject.
+* As a repository manager, I want to indicate subjects related to the collection.
+* As a repository manager, I want to indicate other descriptions of the collection that are outside the DAMS and of probable importance to users.
+* As a repository manager, I want to know all events occurring to a collection.
+* As a user, I want to be able to browse by collections in the DAMS.
+* As a user, I want to be able to limit my search to specified collection(s).
+* As a repository manager, I want to know all the components belonging to an object.
+* As a repository manager, I want to know all the files belonging to an object.
+* As a repository manager, I want to describe an object, including its title, date(s), language(s), and other aspects.
+* As a repository manager, I want to indicate names related to an object.
+* As a repository manager, I want to indicate subjects that are related to an object.
+* As a repository manager, I want to indicate the copyright status of an object.
+* As a repository manager, I want to indicate any statutes pertinent to an object.
+* As a repository manager, I want to indicate any license pertinent to an object.
+* As a repository manager, I want to indicate any other rights pertinent to an object.
+* As a repository manager, I want to indicate any external versions or descriptions of an object that may be of probable importance to an user.
+* As a repository manager, I want to know all events done to an object over its life cycle.
+* As a DAMS manager, I want to know what repository an object belongs to.
+* As a DAMS manager I want to know what collection(s) an object belongs to.
+* As a user, I want to know what repository an object belongs to.
+* As a user, I want to know what collection(s) an object belongs to.
+* As a user, I want to see all the component parts of an object.
+* As a user, I want to have access to the content files for an object.
+* As a user, I want to know the rights status of an object.
+* As a user, I want to know about other versions of the object or its metadata that might be of use to me.
+* As a repository manager, I want to represent the physical and/or logical structure of an object.
+* As a repository manager, I want to list all the components, in their appropriate order, for an object.
+* As a repository manager, I want to link, when appropriate, a component to another component or to a file.
+* As a repository manager, I want to describe each component as necessary, including title, date(s), language(s), and other facets.
+* As a repository manager, I want to indicate any name that is pertinent to the component.
+* As a repository manager, I want to indicate any subject that is pertinent to the component.
+* As a repository manager, I want to indicate if the component has a copyright status different than that of of the object as a whole.
+* As a repository manager, I want to indicate if a statute pertains to the component, apart from the object as a whole.
+* As a repository manager, I want to indicate if a license pertains to the component, apart from the object as a whole.
+* As a repository manager, I want to indicate if other rights pertain to the component, apart from the object as a whole.
+* As a repository manager, I want to know all events occurring to a component over its life cycle.
+* As a DAMS manager, I want to present in their assigned order all components comprising an object.
+* As a user, I want to be able to see and navigate the component hierarchy of an object.
+* As a repository manager, I want to know all the content files in the DAMS for my repository's objects.
+* As a repository manager, I want to associate a content file with either an object or an object component.
+* As a repository manager, I want to know any event that occurred to a content file for any of my repository's objects.
+* As a DAMS manager, I want to indicate to preservation managers aspects of a master file useful for monitoring its integrity and authenticity. 

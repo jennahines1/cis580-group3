@@ -1,0 +1,43 @@
+High-Level Summary of Requirements:
+The Duraspace system is designed to manage a digital asset repository, particularly focused on collections and objects within a library or archival context. The core needs revolve around providing robust metadata management, controlled access, provenance tracking, and support for long-term preservation. Users (Repository Managers, DAMS Managers, and end-users) need to be able to:
+Manage Collections & Objects: Create, compose, and describe collections and individual objects, capturing detailed information about their origins, relationships, rights, and usage.
+Control Access: Implement access restrictions based on user roles and permissions.
+Preservation: Track changes, monitor file integrity (checksums), and manage rights to ensure long-term accessibility.
+Reporting & Searching: Enable efficient searching and reporting across the repository based on various criteria.
+
+Functional Requirements (What the System Must Do):
+These requirements specify the actions the system must perform:
+Metadata Management:
+	Create, update, and delete metadata records for collections and objects.
+	Capture title, date, language, creator, subject, description, rights status, geographic location, etc.
+	Handle associated information (e.g., publication information, license details).
+	Support external descriptions and versions.
+Relationship Management:
+	Define and manage relationships between collections and objects (e.g., part-of, related-to).
+	Establish hierarchies of objects (components of an object).
+Access Control:
+	Implement user roles and permissions.
+	Restrict access to collections and objects based on roles.
+Checksum Management & Integrity Monitoring:
+	Generate and track checksums for content files.
+	Monitor changes to checksums.
+	Alert users to potential integrity issues.
+Event Tracking:
+	Record events associated with collections, objects, and content files (e.g., creation, modification, deletion, copying).
+	Capture details about the event, including the agent responsible and the outcome.
+Reporting & Search:
+	Enable searching based on various criteria (title, subject, date, etc.).
+	Generate reports on collections, objects, and their associated metadata.
+Workflow/Composition:
+	Ability to combine multiple object components into a single object.
+	Manage the relationships between components and the object they comprise.
+
+Non-Functional Requirements (How the System Should Be):
+These requirements describe the qualities of the system:
+Performance: The system should respond quickly to user requests (e.g., search queries, metadata updates).
+Scalability: The system should be able to handle a growing number of collections, objects, and users.
+Reliability: The system should be dependable and stable, minimizing downtime.
+Security: The system should protect the integrity and confidentiality of the digital assets it manages.
+Usability: The system should be easy to use and intuitive for all user roles.
+Maintainability: The system should be designed for easy maintenance and updates.
+Interoperability: The system should be able to exchange data with other systems.

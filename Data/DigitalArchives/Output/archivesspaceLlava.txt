@@ -1,0 +1,28 @@
+High-Level Summary:
+The document outlines requirements for a system focused on managing archival collections, resources, and related metadata. The system needs robust import/export capabilities, user management with different roles, data migration support, and a user-friendly interface for archivists and other users. Key areas of focus are data integrity, access control, and workflow support.
+
+Functional Requirements (What the system does):
+Import/Export EAD files, Accessions data in CSV, Resources from MARCXML records.
+Manage metadata for Resources, Components, Agents, Subjects, Events, Instances, Containers.
+Assign Levels of description to Resources and Resource Components.
+Import Agent information from EAC-CPF records.
+Support LDAP authentication, password reset, bulk updating enum values.
+Develop a custom importer.
+Create, update, and delete archival descriptions in a repository, as well as any records within it.
+Manage Digital Objects.
+Associate an Instance with a Resource and/or Resource Component.
+Assign Location information to a Container.
+Support local authentication.
+Create and edit Agent records.
+Create and edit a Resource record.
+Specify the Source for a Name Form of an Agent and add new Sources and edit existing Sources.
+Manage user roles, permissions, account creation, help center URL and topic mappings, additional properties for repositories, administrative data about archival descriptions and finding aid-related data.
+
+Non-Functional Requirements (How well the system does it):
+Usability: User-friendly interface for all users.
+Performance: Responsive and handle large data sets efficiently.
+Reliability: Stable and available, with backup mechanism for demo database.
+Data Integrity: Prevent accidental overwriting of changes (versioning, locking mechanisms).
+Security: LDAP authentication, Role-Based Access Control.
+Maintainability: Design that allows easy updates and modifications (customizable configurations).
+Scalability: Handles system growth.

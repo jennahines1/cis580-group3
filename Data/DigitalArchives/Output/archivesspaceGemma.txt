@@ -1,0 +1,42 @@
+**High-Level Summary:**
+The `archivesspace.txt` document outlines requirements for a system (likely an archival description system) focused on managing archival collections, resources, and related metadata.  The system needs robust import/export capabilities, user management with different roles, data migration support, and a user-friendly interface for archivists and other users.  Key areas of focus are data integrity, access control, and workflow support.
+
+**I. Functional Requirements (What the system *does*):**
+These requirements describe the specific actions or services the system must provide.
+*   **Data Import/Export:**
+  	  *   Import EAD files (Archon & Toolkit).
+ 	   *   Import Accessions (CSV).
+ 	   *   Import Resources (MARCXML, EAC-CPF, MARCXML with Agent/Subject).
+  	  *   Export Agent records as EAC-CPF.
+  	  *   Export Description as EAD.
+*   **Metadata Management:**
+ 	   *   Create/Edit Collections, Resources, Accessions, Components, Instances, Agents, Subjects, Rights Management Statements, Event records, Collection Management subrecords, Container information, and Event records.
+  	  *   Associate Agents with Accessions, Resources, Components.
+ 	   *   Assign Levels of Description.
+ 	   *   Specify Sources for Name Forms of Agents.
+  	  *   Associate Subjects with Resources.
+*   **User Management & Roles:**
+  	  *   User Authentication (LDAP, Local).
+ 	   *   Password Reset.
+   	 *   Role Assignment (Repository Manager, Archivist, Basic Data Entry, ReadOnly, Advanced Data Entry).
+    *   Create User Accounts.
+*   **Workflow & Hierarchy Management:**
+ 	   *   Rearrange Resource/Digital Object Hierarchy (drag-and-drop).
+	    *   Manage Digital Objects.
+*   **System Administration:**
+   	 *   Configure help center URL & topic mappings.
+  	  *   Control location of demo database & back it up.
+*   **Custom Importer Development**: Allow the development of a custom importer.
+
+**II. Non-Functional Requirements (How well the system *does* it):**
+These requirements specify qualities of the system – attributes like performance, reliability, security, and usability.
+*   **Usability:**
+    	*   User-friendly interface for archivists and other users.
+   	 *   Keyboard-based navigation for resource hierarchy manipulation.
+  	  *   Help Center Access (contextual help links).
+*   **Performance:**  (Implied - not explicitly stated, but important) The system should be responsive and handle large data sets efficiently.
+*   **Reliability:**  The system should be stable and available. Backup mechanism for the demo database.
+*   **Data Integrity:**  Preventing accidental overwriting of changes (versioning, locking mechanisms).
+*   **Security:**  LDAP authentication, Role-Based Access Control.
+*   **Maintainability:**  The system should be designed in a way that allows for easy updates and modifications (configuration over prepackaged builds).
+*   **Scalability** (Implied - important for archival systems that grow over time).
