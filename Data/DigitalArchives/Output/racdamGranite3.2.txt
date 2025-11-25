@@ -1,0 +1,67 @@
+Summary: The document outlines the requirements for archivists and researchers regarding access to digital files, restrictions, and permissions. Archivists want to be able to apply licenses, mark individual files as restricted, mark groups of files as restricted, restrict a file from view, restrict a group of files from view, set a date on which restrictions will be removed from a file, add restriction end date information, add detailed restrictions to groups of files, restrict access based on IP address or user, know if a photo has already been scanned, select existing rights statuses and statements, redact information in digital files for a period of time, have an online form for licensing archival material, batch edit metadata about files, upload a single file, upload groups of files, automatically create access copies of files, generate technical metadata, link electronic versions of researchers' publications to citations, upload scans of images created while answering research requests, create quality scans of images and documents, automatically create access derivatives of digital objects, assign unique identifiers to material scanned, embed metadata in file headers, rotate images, apply automatic contrast and level operations, perform contrast, level and other manipulations manually, supply incremental accruals to new and existing collections, manage scans of archival material created for educational visits, manage loan documentation, generate structured citation data, share reports, download a file, order copies of photos, receive notifications if something requested in the reading room or for duplication is already digitized, make information about rights available to researchers and donors, ensure emails contain accurate citation information, stream audio and video files, export descriptive data in a common format, track use of a photo, see what a particular user has downloaded, provide access to digital copies of unprocessed material, make as much archival material as possible available for use, use archival content on the RAC website, access descriptive information about images scanned for institutions needs, look at images that have been scanned from collection, search all files by keyword, search by keyword, search by tag, access digital files on the X-drive, easily access interdepartmental forms, have electronic versions of the collection files available for staff use, increase accessibility and not lose original files, be able to search across photo collection images, search using structured data, access tagged working papers, access educational outreach materials, have accurate cross-collection citation information, access digitized archival materials without mediation, distinguish between images scanned in color or black and white, ask a question about a specific file, search OCRed text in all available digitized textual documents, know the date on which something was digitized, keyword search across all of an RF program officer's scanned diaries, access inventories for unprocessed collections, view thumbnails of photos, know when only part of a folder has been digitized, view film clips, search images by photographer, search images by people represented in them, search images by place the photo was taken, search images by rights, search index cards and other non-public finding aids, view collection files, view physical locations for non-archival material, find files that cannot be made publicly available, access metadata and visual representations of index cards, search individual material types, search images by uploading an image, create user groups, create user roles, assign RAC staff to different user groups, assign rights to user groups or roles, allow users to log in using Active Directory credentials, have researchers reset their own passwords.
+
+Functional Requirements:
+* Apply licenses and mark individual files as restricted
+* Mark groups of files as restricted
+* Restrict a file from view and restrict a group of files from view
+* Set a date on which restrictions will be removed from a file
+* Add restriction end date information
+* Add detailed restrictions to groups of files
+* Restrict access based on IP address or user
+* Know if a photo has already been scanned
+* Select existing rights statuses and statements
+* Redact information in digital files for a period of time
+* Have an online form for licensing archival material
+* Batch edit metadata about files
+* Upload a single file
+* Upload groups of files
+* Automatically create access copies of files
+* Generate structured citation data
+* Share reports
+* Download a file
+* Order copies of photos
+* Receive notifications if something requested in the reading room or for duplication is already digitized
+* Make information about rights available to researchers and donors
+* Ensure emails contain accurate citation information
+* Stream audio and video files
+* Export descriptive data in a common format
+* Track use of a photo
+* See what a particular user has downloaded
+* Provide access to digital copies of unprocessed material
+* Make as much archival material as possible available for use
+* Use archival content on the RAC website
+* Access descriptive information about images scanned for institutions needs
+* Look at images that have been scanned from collection
+* Search all files by keyword
+* Search by keyword
+* Search by tag
+* Access digital files on the X-drive
+* Easily access interdepartmental forms
+* Have electronic versions of the collection files available for staff use
+* Increase accessibility and not lose original files
+* Be able to search across photo collection images
+* Search using structured data
+* Access tagged working papers
+* Access educational outreach materials
+* Have accurate cross-collection citation information
+* Access digitized archival materials without mediation
+* Distinguish between images scanned in color or black and white
+* Ask a question about a specific file
+* Search OCRed text in all available digitized textual documents
+* Know the date on which something was digitized
+* Keyword search across all of an RF program officer's scanned diaries
+* Access inventories for unprocessed collections
+* View thumbnails of photos
+* Know when only part of a folder has been digitized
+* View film clips
+* Search images by photographer
+* Search images by people represented in them
+* Search images by place the photo was taken
+* Search images by rights
+* Search index cards and other non-public finding aids
+* View collection files
+* View physical locations for non-archival material
+* Find files that cannot be made publicly available
+* Access metadata and visual representations of index cards
+* Search individual material types
+* Search images by uploading an image

@@ -1,0 +1,67 @@
+Summary: This document outlines the requirements for a digital asset management system (DAMS) designed for archivists and researchers. It includes features such as licensing and rights statements, restricted access to files and groups of files, setting end dates for restrictions, automated creation of access copies and technical metadata, batch editing of metadata, uploading of files and inventories, automatic creation of access derivatives, unique identifier assignment, manual contrast and level manipulation, tracking use of assets, notification of duplicates, and integration with the RAC website.
+
+Functional requirements:
+Apply a license or rights statement to files
+Mark individual files as restricted
+Mark groups of files as restricted
+Restrict access to some files by IP address
+Restrict access to certain files by user
+Know if a photo has already been scanned
+Select existing rights statuses and statements
+Redact information in digital files for a period of time
+Have an online form for licensing archival material
+Batch edit metadata about files
+Upload a single file or groups of files
+Automatically create access copies of files
+Automatically generate technical metadata
+Manually perform contrast and level manipulations on scanned files
+Distinguish between digital objects digitized to preservation standards and those created for access purposes only
+Link electronic versions of researchers' publications to citations
+Upload scans of images created while answering research requests
+Create quality scans of images and documents
+Automatically create access derivatives of digital objects
+Automatically assign unique identifiers to material I scan
+Rotate images
+Apply automatic contrast and level operations to a scanned file
+Manual contrast and level manipulation
+Distinguish between images scanned in color or black and white
+Ask a question about a specific file
+Search OCRed text in all available digitized textual documents
+Keyword search across all of an RF program officer's scanned diaries
+Access inventories for unprocessed collections
+View thumbnails of photos
+Know when only part of a folder has been digitized
+View film clips
+Search images by photographer, people represented in them, place the photo was taken, rights, and index cards
+Search physical locations for non-archival material
+Find files that cannot be made publicly available
+Access metadata and visual representations of index cards
+Search individual material types
+Upload an image to search images by uploading an image
+Create user groups and roles
+Assign RAC staff to different user groups or roles
+Allow users to log in using Active Directory credentials
+Have researchers reset their own passwords
+Limit who can see certain metadata fields based on user groups
+
+Non-functional requirements:
+Make information about rights available to researchers and donors
+Ensure that emails sent about specific objects contain accurate citation information
+Stream audio and video files in a web browser
+Export descriptive data in a common format for text mining
+Track use of assets
+Provide access to digital copies of unprocessed material
+Make as much archival material as possible available for use
+Use archival content on the RAC website
+Access descriptive information about images scanned from a donor representative's collection
+Search all files by keyword
+Browsing through files in a collection
+Upload inventories
+Search by tag
+Access digital files on the X-drive
+Easily access interdepartmental forms
+Have electronic versions of collection files available for staff use
+Increase accessibility by providing electronic versions of collection files
+Provide reference services to donors
+Make connections with institutions through educational outreach materials
+Find materials again by having accurate cross-collection citation information
