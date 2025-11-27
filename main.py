@@ -36,7 +36,7 @@ extracurricular_activities = ['planningpoker', 'zooinverse', 'campersplus']
 
 # LIKERT
 # List that Holds Likert Scale Categories, 12 total
-likert_scale = ['Unambiguity', 'Consistency', 'Completeness', 'Modifiability', 'Feasability', 'Clarity', 'Testability', 'Traceability', 'Usability', 'Correctness', 'Compatibility', 'Security']
+likert_scale = ['Unambiguity', 'Consistency', 'Completeness', 'Modifiability', 'Feasibility', 'Clarity', 'Testability', 'Traceability', 'Usability', 'Correctness', 'Compatibility', 'Security']
 
 # List that Hold Likert Scale Rating
 likert_rating = [1, 2, 3, 4, 5]
@@ -65,5 +65,5 @@ durspace_granite_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 archivespace_granite_functional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 racdam_granite_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
-
+llava_durspace_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
