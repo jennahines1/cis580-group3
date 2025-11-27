@@ -1,0 +1,44 @@
+**High-Level Summary:**
+
+This document outlines the requirements for a web application designed to facilitate estimation sessions (likely inspired by the Planning Poker technique). The core functionality revolves around creating and managing estimation games, inviting estimators, tracking estimates, and analyzing the results. A significant emphasis is placed on usability, accessibility, performance, data analysis, and support for various browsers.
+
+**Functional Requirements (Categorized):**
+
+**1. Game Management & Moderation:**
+*   **Game Creation:** Ability to create new games with a name and an optional description.
+*   **Estimator Invitation:** Generation of URLs for inviting estimators.
+*   **Round Start:** Entry of items to be estimated.
+*   **Item Management:** Adding, editing, and deleting items from the estimation list.
+*   **Average Calculation:** Automated calculation of the average estimate.
+*   **Task Scheduling:** Scheduling tasks/activities for specific groups.
+*   **Reporting:** Tools for moderators to report behavior.
+
+**2. Estimator Functionality:**
+*   **Joining Games:** Estimators joining games by entering their name on the page they received the URL for.
+*   **Viewing Items:** Estimators viewing the item being estimated.
+*   **Viewing Estimates:** Estimators seeing all estimates immediately after all estimators have given their estimate.
+*   **Changing Estimates:** Estimators changing their estimates until the draw is completed.
+*   **Prior Estimate Viewing:** Estimators viewing each estimator's prior estimates for the story being estimated.
+*   **Timer Management:** A 2-minute timer with automatic reset after an estimate is played.
+*   **Card Order Consistency:** Maintaining a consistent card order across draws.
+
+**3. Data Management & Analysis:**
+*   **Data Storage:** Secure storage of camper, parent, and staff information (non-identifiable for research).
+*   **Transcript Export✖️:** Export a transcript of a game as a HTML file, and as a CSV file.
+*   **Database Indexes:** Creation of database indexes to optimize query performance.
+
+**4.  User Interface & Experience:**
+*   **Unicode Support:** Ability to use Unicode for internationalization.
+*   **Sensible URLs:** Creation of sensible and predictable URLs.
+*   **Error Pages:** Creation of nice error pages.
+*   **Thumbnails:** Display thumbnails near where cards are played.
+
+**5.  System Administration & Monitoring:**
+*   **Account Management:** Creation of accounts by entering a name, email address, password, and username.
+*   **Login:** Ability to log in using the created account.
+*   **Account Details:** Ability to change account details.
+*   **Usage Metrics:** Ability for "Mike" to see usage metrics.
+
+**6. Technical Requirements:**
+*   **W3C Compliance:**  Compliance with W3C accessibility guidelines and XHTML/CSS standards.
+*   **Defined Terminology:** Creation of a list of definitions for commonly used terms.

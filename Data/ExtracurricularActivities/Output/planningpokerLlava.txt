@@ -1,0 +1,47 @@
+**High-Level Summary:**
+
+This document outlines the requirements for a web application designed to facilitate estimation sessions, likely inspired by the Planning Poker technique. The core functionality revolves around creating and managing estimation games, inviting estimators, tracking estimates, and analyzing the results.  A significant emphasis is placed on usability, accessibility, performance, data analysis, and support for various browsers.
+
+**Functional Requirements (Categorized):**
+
+**1. Game Management & Moderation:**
+*   **Game Creation:** Ability to create new games with a name and optional description.
+*   **Estimator Invitation:** Generation of URLs for inviting estimators.
+*   **Round Start:** Entry of items to be estimated.
+*   **Item Management:** Adding, editing, and deleting items from the estimation list.
+*   **Average Calculation:** Automated calculation of the average estimate.
+*   **Task Scheduling:** Scheduling tasks/activities for specific groups.
+*   **Reporting:** Tools for moderators to report behavior.
+
+**2. Estimator Functionality:**
+*   **Joining Games:** Estimators joining games by entering a name.
+*   **Viewing Items:** Estimators viewing the item being estimated.
+*   **Viewing Estimates:** Estimators seeing all estimates immediately.
+*   **Changing Estimates:** Estimators changing their estimates until the draw is completed.
+*   **Prior Estimate Viewing:** Estimators viewing each estimator's previous estimates.
+*   **Timer Management:** A 2-minute timer with automatic reset after an estimate is played.
+*   **Card Order Consistency:** Maintaining a consistent card order across draws.
+
+**3. Data Management & Analysis:**
+*   **Data Storage:** Secure storage of camper, parent, and staff information.
+*   **Transcript Export:** Exporting game transcripts to HTML and CSV formats.
+*   **Metrics Tracking:** Metrics to be monitored by "Mike" (usage statistics).
+*   **Data Privacy:** Non-identifiable data storage for research.
+
+**4. Administrative & User Features:**
+*   **User Accounts:** Account creation, login, password management (reset), and account details.
+*   **Timezone Support:** Displaying dates and times in the user's local timezone.
+*   **Unicode Support:**  Support for Unicode for internationalization.
+*   **URL Conventions:** Sensible and predictable URLs.
+*   **Error Pages:** Informative error pages.
+*   **Import/Export:** Importing stories from spreadsheets and exporting transcript data.
+
+**Non-Functional Requirements (Implied - derived from the descriptions):**
+
+*   **Usability:** Intuitive and easy to use interface.
+*   **Performance:** Fast response times.
+*   **Accessibility:** W3C accessibility guidelines compliance.
+*   **Security:** Secure data storage.
+*   **Maintainability:** Clean code, documentation, database indexes, and defined terms.
+*   **Browser Compatibility:** Functionality in Internet Explorer 6 & 7, Firefox 1.5 & 2, and Safari 2.
+*   **Scalability:** Support up to 15 estimators.

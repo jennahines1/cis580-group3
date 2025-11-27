@@ -1,0 +1,54 @@
+
+**High-Level Summary:**  
+The "g28-zooniverse.txt" document outlines requirements for a web application focused on citizen science and media discovery, inspired by platforms like Zooniverse. It emphasizes user-driven content exploration, automated analysis of media (video/images), and admin controls for managing volunteer contributions. Key features include content search via metadata, fingerprinting, geospatial data, and voice recognition, alongside advanced admin tools for filtering, validation, and intelligent guidance of volunteers. The system aims to balance user creativity with administrative oversight to ensure quality, relevance, and engagement in collaborative projects.
+
+Functional Requirements:  
+User Features:  
+1. Content Discovery:  
+   - Search music/videos via content identification, fingerprinting, or similarity.  
+   - Search based on user profiles, similar users, or specific video segments.  
+   - Use enriched metadata, image tags, and geospatial data for recommendations.  
+   - Upload tagged videos/images for further processing.  
+   - View thumbnail sequences of video segments.  
+   - Identify persons, products, logos, brands, or locations in videos.  
+   - Receive recommendations based on profile, news events, or image/video similarity.  
+   - Access content via geographical maps (e.g., monuments, points of interest).  
+   - Use speech recognition for content searches.  
+
+2. Interactive Media Analysis:  
+   - Get info about similar or perceptually similar video items/segments.  
+   - Take photos/images to find related videos.  
+   - Identify and retrieve information about entities (e.g., people, products, brands).  
+   - Automatically detect/segment animals, plankton, or worm motion in videos.  
+   - Remove artifacts (e.g., bright stars, camera errors) or background noise.  
+   - Group similar whale calls, count whales in audio, or detect flooding/damage in satellite images.  
+
+ Admin Features:  
+1. Content Management:  
+   - Validate/edit video segmentation.  
+   - Annotate news video segments and extract topics.  
+   - Filter/rank videos by A/V quality aspects.  
+   - Detect pre-edited audio, nudity, or copyright infringement.  
+   - Prefilter content using low/high-level metadata/tags.  
+   - Automatically validate copyright compliance.  
+
+ 2. Volunteer Guidance:  
+   - Assess the interest/complexity of media via automated analysis or citizen annotations.  
+   - Detect when to prompt volunteers to review specific subjects.  
+   - Group volunteers by similarity or preclassify images (e.g., Galaxy Zoo, Snapshot Serengeti).  
+   - Automatically detect/segment animals, plankton, or worm motion in videos.  
+   - Identify and remove artifacts (e.g., bright stars, camera errors) or background noise.  
+   - Group similar whale calls, count whales in audio, or detect flooding/damage in satellite images.  
+
+ 3. Intelligent Interaction:  
+   - Determine when to interrupt/educate volunteers (via text/images/videos).  
+   - Recommend projects based on volunteer history.  
+   - Use Zoonibot for automated comments/explanations on subjects.  
+   - Summarize articles for reuse.  
+
+ Non-Functional Requirements:  
+1. Scalability: Handle large user bases, diverse media types, and real-time interactions.  
+2. Reliability: Ensure stable performance for critical tasks (e.g., content validation, volunteer guidance).  
+3. Usability: Intuitive interfaces for both users (media exploration) and admins (content management).  
+4. Security: Protect against unauthorized access, ensure data privacy, and enforce content filtering.  
+5. Performance: Efficient processing of media (e.g., video segmentation, metadata extraction).  

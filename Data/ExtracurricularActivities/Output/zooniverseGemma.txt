@@ -1,0 +1,40 @@
+**High-Level Summary:**
+
+The “g28-zooniverse.txt” document outlines the requirements for a web application designed to facilitate citizen science projects, specifically echoing the model of Zooniverse.  It details a *very* extensive set of requirements focused on both user contributions *and* administrative control, particularly for managing and guiding volunteer scientists. A central theme is the system's ability to intelligently support and direct volunteer efforts, rather than simply providing a platform for them.
+
+**Functional Requirements (Categorized):**
+
+**1. User Contribution & Exploration:**
+*   **Content Search:** Search by content identification, fingerprinting, similarity (video, images), and enriched metadata.
+*   **Upload:**  Users can upload tagged images and videos.
+*   **Thumbnail Navigation:** View sequential thumbnails of video segments.
+*   **Geospatial Exploration:**  Search content based on location.
+*   **Voice Search:**  Search using speech recognition.
+
+**2. Volunteer Support & Guidance (Admin Focus - Extensive):**
+*   **Intelligent Routing:** System recommends projects based on past performance.
+*   **Real-time Support:**
+    *   **Interruptions:**  Admin can interrupt volunteers via text, image, or video.
+    *   **Education:** Admin can provide targeted educational content (text, image, video).
+    *   **Feedback:**  Admin can solicit and receive feedback from volunteers.
+*   **Volunteer Grouping:** Grouping subjects by similarity for focused review.
+*   **Zoonibot:** Automated comment and explanation generation.
+*   **Workflow Management:**  Monitoring and directing volunteer activity.
+*   **Project Recommendation**: Based on volunteer history.
+*   **Alerts & Notifications:**  Admin receives alerts about volunteer activity (e.g., needing support, making interesting comments).
+*   **Data Validation:** Automated checks for copyright infringement and other issues.
+
+**3. System Administration & Monitoring:**
+*   **Analytics:**  Tracking user activity, contribution rates, and project performance.
+*   **Reporting:** Generating summaries of data.
+*   **Quality Control:**  Filtering and ranking content based on A/V quality.
+
+**Non-Functional Requirements (Inferred):**
+
+*   **Scalability:** The system must be able to handle a large number of users and projects.
+*   **Reliability:**  Stable performance.
+*   **Usability:**  Intuitive interface for both users and administrators.
+
+--- End of g28-zooniverse.txt ---
+
+**Note:** The sheer volume of requirements in this document suggests a massively complex system—likely a significant undertaking. The focus on administrative control and support is a key differentiator from a simple citizen science platform.  This document highlights a system designed to *manage* citizen scientists, rather than just provide them with a tool.
