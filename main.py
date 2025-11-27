@@ -53,3 +53,7 @@ llm_models = ['Gemma3', 'Llava', 'Granite3.2']
 
 
 
+durspace_granite_functional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+durspace_granite_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+archivespace_granite_functional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+racdam_granite_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
