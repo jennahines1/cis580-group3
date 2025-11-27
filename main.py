@@ -1,45 +1,55 @@
+# File to Input Likert Scale Data for Software/Metrics Visualizations (Graphs)
+# CIS 580 Final Project, Erika Valle-Baird, Jenna Hines, Sierra Corl
+# University of Michigan Dearborn
+
 import string
 import numpy as np
 import pandas as pd
 import os
+import math
 import matplotlib
+import matplotlib.pyplot as plt
+import warnings
+from sklearn import metrics
 
 
-
-
-
-# File to Input Likert Scale Data for Software/Metrics Visualizations (Graphs)
+# List of LLM Models
+llm_models = ['Gemma3', 'Llava', 'Granite3.2']
 
 # List of Types of LLM Output Categories (High-level Summary, Functional Requirements, and Non-functional Requirements)
 output_categories = ['Summary', 'Functional', 'Non-Functional']
 
+# List to Hold Time it Takes Each LLM to Begin Once Given the Prompt, Might need to Make Own Lists for Each LLM
+llm_times = []
 
 # List of each of the Data Set Categories holding the names of the text files as the items
-# Separating them into the sets of 3 for graphical output readability
+# Main List to Hold all User Story Files For Comparisons, 9 Total
+user_stories = ['Racdam', 'Archivespace', 'Duraspace', 'Openspending', 'Culrepo', 'Rdadmp', 'Planningpoker', 'Zooinverse', 'Campersplus']
 
+# Separating them into the sets of 3 for graphical output readability if we want to chunk it
 # Digital Archives
 digital_archives = ['racdam', 'archivespace', 'duraspace']
-
 # Software/Research Databases
 software_databases = ['openspending', 'culrepo', 'rdadmp']
-
 # Extracurricular Activites
 extracurricular_activities = ['planningpoker', 'zooinverse', 'campersplus']
 
-# List that Holds Likert Scale Categories
+# LIKERT
+# List that Holds Likert Scale Categories, 12 total
 likert_scale = ['Unambiguity', 'Consistency', 'Completeness', 'Modifiability', 'Feasability', 'Clarity', 'Testability', 'Traceability', 'Usability', 'Correctness', 'Compatibility', 'Security']
-
-
-
 
 # List that Hold Likert Scale Rating
 likert_rating = [1, 2, 3, 4, 5]
 
 
 
-# List of LLM Models
-llm_models = ['Gemma3', 'Llava', 'Granite3.2']
 
+# Timing of Each LLM, Order: 0: Racdam, 1: Archivespace, 2: Duraspace, 3: Openspending, 4: Culrepo, 5: Rdadmp, 6: Planningpoker, 7: Zooinverse, 8: Campersplus
+# 0's in Place of Rest Until Jenna and Sierra Fill Theirs in
+# Using Total Number of Seconds for Time
+gemma_timing = [107, 51, 112, 0, 0, 0, 0, 0, 0]
+llava_timing = [238, 312, 236, 0, 0, 0, 0, 0, 0]
+granite_riming = [125, 43, 83, 0, 0, 0, 0, 0, 0]
 
 
 
@@ -50,10 +60,10 @@ llm_models = ['Gemma3', 'Llava', 'Granite3.2']
 # durspace: Missing Functional & Non-Functional Requirements
 # archivespace: Missing Functional Requirements
 # racdam: Missing Non-Functional Requirements
-
-
-
 durspace_granite_functional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 durspace_granite_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 archivespace_granite_functional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 racdam_granite_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+
+
