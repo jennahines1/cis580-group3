@@ -39,3 +39,17 @@ likert_rating = [1, 2, 3, 4, 5]
 
 # List of LLM Models
 llm_models = ['Gemma3', 'Llava', 'Granite3.2']
+
+
+
+
+
+# Digital Archives
+# MISSING = Automatic 1 Rating for All Scale Categories:
+# Granite3.2:
+# durspace: Missing Functional & Non-Functional Requirements
+# archivespace: Missing Functional Requirements
+# racdam: Missing Non-Functional Requirements
+
+
+
