@@ -1,0 +1,77 @@
+## CamperPlus System Requirements Summary
+
+Here's a breakdown of the requirements for the CamperPlus system, categorized and summarized:
+
+**I. Administrator Requirements:**
+
+**A. Camper Management:**
+
+*   **Add Campers:** Ability to add new camper records with relevant information (name, contact details, emergency contacts, medical history, etc.).
+*   **Remove Campers:** Ability to remove campers from the system (likely for those no longer attending).
+*   **Manage Historical Records:** Maintain and access camper records from previous years for easy reference.
+*   **Manage Groups:** Create and manage groups of campers.
+*   **Manage Enrollment:** Add and remove parents/guardians and campers to/from groups.
+*   **Modify Camper Information:**  Update existing camper records with any changes.
+*   **Delete Campers:** Remove campers from the database.
+
+**B. Consent & Forms Management:**
+
+*   **Upload Consent Forms:**  Ability to upload consent forms submitted by campers/parents.
+*   **Track Form Submissions:** Record which camper submitted which forms.
+
+**C. Scheduling & Activity Management:**
+
+*   **Create Activities:** Schedule and manage activities for campers.
+*   **Manage Task Scheduling:** Schedule tasks/activities for specific groups.
+*   **Modify Scheduled Tasks:** Update existing tasks/events.
+*   **Delete Scheduled Tasks:** Remove tasks/events from the schedule.
+*   **View Group Calendars:** See event calendars filtered by specific groups.
+
+**D. Reporting & Communication:**
+
+*   **Generate Nametags:** Automatically create nametags.
+*   **Create Feedback Forms:** Provide a channel for parents to submit feedback.
+*   **Bi-Weekly Feedback Reports:** Generate reports for parents on their child’s progress.
+*   **Send Notifications:**  Send announcements and reminders to parents (e.g., upcoming events).
+*   **Manage Emergency Information:** Store camper emergency contact information securely.
+*   **Manage Parent Information:** Maintain records of parents/guardians.
+
+
+**II. Parent Requirements:**
+
+**A. Enrollment & Account Management:**
+
+*   **Create Account:** Allow parents to create an account for online registration.
+*   **Manage Child Enrollment:**  Enroll children in camp, and view/modify the enrollment status.
+*   **View Payment Status:** Track payments related to camp fees.
+
+**B. Camper Information & Activity Tracking:**
+
+*   **View Camper Schedule:** See a schedule of activities for their child.
+*   **View Assigned Counselors:** See which counselor is assigned to their child.
+*   **Message Counselors:** Communicate with counselors.
+*   **Share Photos:** Access photos of their child taken at camp.
+
+**C. Form Submission & Management:**
+
+*   **Submit Forms:**  Easily submit consent forms and other required forms.
+*   **View Submitted Forms:** See a record of all forms they have submitted.
+
+**III. Camp Worker Requirements:**
+
+**A. Camper Management & Attendance:**
+
+*   **View Assigned Campers:** See which campers they are responsible for.
+*   **Take Attendance:** Track camper attendance.
+*   **Report Inappropriate Behavior:** Report camper behavior to the administrator.
+*   **Report Supply Shortages:** Report needed supplies to the administrator.
+*   **Report Repairs:** Report necessary repairs to the administrator.
+
+**B. Task Completion:**
+
+*   **Submit Completion Reports:**  Complete and submit reports for assigned tasks.
+*   **Manage Supplies:** Report shortages to the manager.
+
+**C. Communication:**
+
+*   **Connect with Parents:**  Ability to contact parents in case of an emergency.

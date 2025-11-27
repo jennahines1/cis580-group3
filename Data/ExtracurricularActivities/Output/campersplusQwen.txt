@@ -1,0 +1,42 @@
+**High-Level Summary:**  
+The "g12-campersplus.txt" document outlines requirements for a web application designed to streamline camp administration, parent engagement, and staff coordination. The system enables camp administrators to manage camper records, schedule activities, handle forms, and ensure safety protocols. Parents can track their child’s progress, submit forms, and communicate with staff. Camp workers and counselors can monitor responsibilities, report issues, and manage attendance. Key features include centralized data storage, real-time updates, and role-specific tools to enhance efficiency, safety, and communication. The application emphasizes usability, security, and scalability to support diverse user needs and operational demands.  
+
+---
+
+### **Functional Requirements**  
+**Camp Administrator Features:**  
+1. Add/remove campers and parents.  
+2. Upload and track consent forms, medical records, and emergency information.  
+3. Schedule activities, tasks, and events for campers and staff.  
+4. Create, modify, and delete camper groups and staff roles.  
+5. Generate and manage nametags, reminders, and bi-weekly feedback.  
+6. Monitor attendance, facility usage, and behavioral issues.  
+7. Store and retrieve historical camper data for future reference.  
+8. Notify parents of events, emergencies, and schedule updates.  
+9. Assign counselors to campers and manage staff responsibilities.  
+10. Report missing supplies, repairs, or inappropriate behavior.  
+
+**Parent Features:**  
+1. Enroll children, view schedules, and track activities.  
+2. Submit and track consent forms, payments, and feedback.  
+3. Access medical information and emergency contact details.  
+4. Message counselors, view assigned staff, and share photos.  
+5. Edit enrolled children and manage account information.  
+
+**Camp Worker/Counselor Features:**  
+1. Monitor assigned campers, take attendance, and report issues.  
+2. Submit completion reports for assigned tasks.  
+3. Report missing supplies, repairs, or inappropriate behavior.  
+4. Access camper schedules and group activities.  
+
+---
+
+### **Non-Functional Requirements**  
+1. **Scalability:** Support high user concurrency (e.g., multiple parents/counselors accessing data simultaneously).  
+2. **Security:** Protect sensitive data (e.g., medical records, emergency contacts) with encryption and access controls.  
+3. **Usability:** Intuitive interfaces for all user roles (admins, parents, staff) with clear navigation.  
+4. **Performance:** Fast load times for real-time updates (e.g., notifications, attendance tracking).  
+5. **Accessibility:** Compliant with W3C standards for users with disabilities.  
+6. **Compliance:** Support multilingual forms and Unicode for global use.  
+7. **Error Handling:** Clear, actionable error messages for form submissions and system failures.  
+8. **Data Retention:** Store historical records for previous years to reduce administrative overhead.  

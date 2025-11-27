@@ -1,0 +1,65 @@
+ **CamperPlus Requirements Summary:**
+
+**Functional Requirements:**
+
+* Administrator:
+	+ Add campers
+	+ Remove campers
+	+ Manage camper records from previous years
+	+ Upload consent forms
+	+ Keep track of which camper submitted which forms
+	+ Schedule activities for campers
+	+ Create nametags
+	+ Suspend camper(s) with behavioral problems
+	+ Set reminders related to specific tasks
+	+ Assign different positions to staff members
+	+ Warn a camp worker who did his/her job inappropriately
+	+ Create an avenue for parents to submit feedback and general concerns
+	+ Store camper's emergency information securely
+	+ Store parent's immediate contact information securely
+	+ Provide bi-weekly feedback to parents
+	+ Make nametags faster
+	+ Create a registration form for both staff and kids
+	+ Keep administrator's information in one place
+	+ See medical forms
+	+ Notify parents all at once of upcoming events
+	+ Log attendance daily
+	+ Add parents
+	+ Create groups and add campers to the groups
+	+ See all camp groups and the events scheduled for each group/groups on the event calendar
+	+ Schedule tasks/activities for a specific camp group
+	+ Delete tasks/activities I scheduled
+	+ Modify tasks/events I scheduled in case there is a change
+	+ Modify camper's information
+	+ Delete campers from the database
+	+ Modify parent's information
+	+ Delete parents from the database
+	+ Modify group's information
+	+ See only events for a specific group/groups on the event calendar
+	+ View medical forms
+* Parent:
+	+ Create an account
+	+ Enroll children
+	+ View payment status
+	+ Track child's activity and schedule at camp
+	+ Submit various types of forms to the camp management
+	+ Message counselors
+	+ Share photos taken by the camp
+	+ Connect with staff in case of emergency
+* Camp Worker:
+	+ Take attendance daily
+	+ Submit completion report for tasks assigned
+	+ Report inappropriate behavior
+	+ Report supply shortages
+	+ Report necessary repairs
+	+ See which campers they are in charge of and where
+	+ Use the camp management system to communicate with parents.
+
+**Non-Functional Requirements:**
+
+* Secure storage for sensitive information (camper's, parent's, staff's)
+* User-friendly interface
+* Scalability to accommodate a large number of users (campers, parents, staff)
+* Accessibility on various devices and platforms
+* Compatible with relevant regulations and policies (e.g., GDPR, HIPAA)
+* Regular maintenance and updates to ensure system reliability and security 
