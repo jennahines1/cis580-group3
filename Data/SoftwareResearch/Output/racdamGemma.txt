@@ -1,0 +1,239 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;\f1\fnil\fcharset0 HelveticaNeue-Italic;\f2\fnil\fcharset0 .SFNS-Regular_wdth_opsz110000_GRAD_wght2580000;
+\f3\fnil\fcharset0 .SFNS-RegularItalic_opsz110000_YAXS1A3332C_wght2580000;}
+{\colortbl;\red255\green255\blue255;\red49\green49\blue49;}
+{\*\expandedcolortbl;;\cssrgb\c25098\c25098\c25098;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid301\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid4}
+{\list\listtemplateid5\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid401\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid5}
+{\list\listtemplateid6\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid501\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid6}
+{\list\listtemplateid7\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid601\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid7}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}{\listoverride\listid5\listoverridecount0\ls5}{\listoverride\listid6\listoverridecount0\ls6}{\listoverride\listid7\listoverridecount0\ls7}}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sa400\partightenfactor0
+
+\f0\fs32 \cf2 \expnd0\expndtw0\kerning0
+Okay, let's break down the requirements from the \'93racdam.txt\'94 document. This is a 
+\f1\i massive
+\f0\i0  undertaking \'96 it clearly outlines a sophisticated digital asset management system for an archival institution. Here\'92s a categorized and summarized view, followed by a breakdown of functional and non-functional requirements.\
+\pard\pardeftab720\sa400\partightenfactor0
+
+\f2\b \cf2 I. High-Level Summary
+\f0\b0 \
+The system ("racdam") is designed to manage a large collection of digitized assets (images, documents, recordings, etc.) within an archival setting. It\'92s geared towards facilitating access for researchers and donors while providing robust control over rights, permissions, and metadata. Key elements include:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa160\partightenfactor0
+\ls1\ilvl0
+\f2\b \cf2 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Comprehensive Metadata:
+\f0\b0  Rich metadata is central, supporting detailed searching and filtering.\
+\ls1\ilvl0
+\f2\b \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Rights Management:
+\f0\b0  Strong controls for restricting access based on rights statements, dates, user groups, IP addresses, and more.\
+\ls1\ilvl0
+\f2\b \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+User Access Control:
+\f0\b0  Flexible user roles and group management.\
+\ls1\ilvl0
+\f2\b \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Workflow Support:
+\f0\b0  Designed to streamline processes from acquisition to access.\
+\ls1\ilvl0
+\f2\b \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Search & Discovery:
+\f0\b0  A robust search interface to locate assets efficiently.\
+\pard\pardeftab720\sa400\partightenfactor0
+
+\f2\b \cf2 II. Categorized Requirements Breakdown
+\f0\b0 \
+
+\f2\b A. Asset Management & Metadata
+\f0\b0 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa160\partightenfactor0
+\ls2\ilvl0
+\f2\b \cf2 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Detailed Metadata:
+\f0\b0  Supports a 
+\f1\i huge
+\f0\i0  number of metadata fields (file type, creator, date, rights, subject, location, etc.).\
+\ls2\ilvl0
+\f2\b \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Image Handling:
+\f0\b0  Rotating, contrast/level adjustments, color/black & white distinctions.\
+\ls2\ilvl0
+\f2\b \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Text Search:
+\f0\b0  OCR for textual documents, keyword searching.\
+\ls2\ilvl0
+\f2\b \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Searching by Various Attributes:
+\f0\b0  Searching by creator, date, subject, location, keywords, and potentially other criteria.\
+\ls2\ilvl0
+\f2\b \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Viewing Thumbnails:
+\f0\b0  Displaying thumbnails for image-based assets.\
+\ls2\ilvl0
+\f2\b \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+File Size Tracking:
+\f0\b0  Automated generation of technical metadata (file size).\
+\ls2\ilvl0
+\f2\b \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Tracking Usage:
+\f0\b0  Recording which users download/access assets.\
+\ls2\ilvl0
+\f2\b \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Index Card Integration:
+\f0\b0  Searchable index cards and finding aids.\
+\ls2\ilvl0
+\f2\b \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Inventory Management
+\f0\b0 : Allows for uploading of inventories.\
+\pard\pardeftab720\sa400\partightenfactor0
+
+\f2\b \cf2 B. Rights & Access Management
+\f0\b0 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa160\partightenfactor0
+\ls3\ilvl0
+\f2\b \cf2 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Rights Statements:
+\f0\b0  Supports a wide range of rights statements to control access.\
+\ls3\ilvl0
+\f2\b \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Date-Based Restrictions:
+\f0\b0  Restrictions based on date (access granted or denied).\
+\ls3\ilvl0
+\f2\b \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+User Group Control:
+\f0\b0  Assigning permissions to user groups.\
+\ls3\ilvl0
+\f2\b \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+IP Address Restriction:
+\f0\b0  Restricting access based on IP address.\
+\ls3\ilvl0
+\f2\b \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Active Directory Integration:
+\f0\b0  Login via Active Directory.\
+\ls3\ilvl0
+\f2\b \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+User Password Management:
+\f0\b0  Self-service password reset.\
+\ls3\ilvl0
+\f2\b \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Role-Based Access Control
+\f0\b0 : Allows users to be assigned permissions based on their role.\
+\pard\pardeftab720\sa400\partightenfactor0
+
+\f2\b \cf2 C. User Interface & Search
+\f0\b0 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa160\partightenfactor0
+\ls4\ilvl0
+\f2\b \cf2 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Web-Based Interface:
+\f0\b0  Accessed through a web browser.\
+\ls4\ilvl0
+\f2\b \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Advanced Search:
+\f0\b0  Supports complex search queries (combining metadata fields).\
+\ls4\ilvl0
+\f2\b \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Filtering & Sorting:
+\f0\b0  Filtering results by multiple criteria, sorting by relevance, date, etc.\
+\ls4\ilvl0
+\f2\b \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+User Account Management
+\f0\b0 : Users can manage their own accounts.\
+\pard\pardeftab720\sa400\partightenfactor0
+
+\f2\b \cf2 III. Functional & Non-Functional Requirements
+\f0\b0 \
+
+\f2\b A. Functional Requirements (What the system 
+\f3\i does
+\f2\i0 )
+\f0\b0 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa160\partightenfactor0
+\ls5\ilvl0
+\f2\b \cf2 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Metadata Creation/Editing:
+\f0\b0  Allows users to create and edit metadata for assets.\
+\ls5\ilvl0
+\f2\b \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Asset Upload/Download:
+\f0\b0  Supports uploading assets to the system and downloading them.\
+\ls5\ilvl0
+\f2\b \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Search Functionality:
+\f0\b0  Enables searching assets based on various criteria.\
+\ls5\ilvl0
+\f2\b \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Rights Management:
+\f0\b0  Allows assignment and management of rights statements.\
+\ls5\ilvl0
+\f2\b \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Access Control:
+\f0\b0  Enforces user access based on permissions.\
+\ls5\ilvl0
+\f2\b \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+User Account Management:
+\f0\b0  Provides tools for managing user accounts.\
+\ls5\ilvl0
+\f2\b \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Reporting:
+\f0\b0  Generates reports on asset usage, rights compliance, etc.\
+\ls5\ilvl0
+\f2\b \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Workflow Management
+\f0\b0 : Manages and controls the various processes within the archival setting.\
+\pard\pardeftab720\sa400\partightenfactor0
+
+\f2\b \cf2 B. Non-Functional Requirements (How well the system 
+\f3\i performs
+\f2\i0 )
+\f0\b0 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa160\partightenfactor0
+\ls6\ilvl0
+\f2\b \cf2 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Performance:
+\f0\b0  The system must be responsive and perform searches quickly.\
+\ls6\ilvl0
+\f2\b \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Scalability:
+\f0\b0  The system should be able to handle a large number of assets and users.\
+\ls6\ilvl0
+\f2\b \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Security:
+\f0\b0  The system must protect assets and user data.\
+\ls6\ilvl0
+\f2\b \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Usability:
+\f0\b0  The interface should be intuitive and easy to use.\
+\ls6\ilvl0
+\f2\b \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Reliability:
+\f0\b0  The system must be stable and dependable.\
+\ls6\ilvl0
+\f2\b \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Maintainability:
+\f0\b0  The system must be designed for easy maintenance and updates.\
+\ls6\ilvl0
+\f2\b \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Accessibility:
+\f0\b0  Consideration for accessibility standards (e.g., WCAG) would be highly desirable.\
+\pard\pardeftab720\sa400\partightenfactor0
+
+\f2\b \cf2 Important Considerations (Based on the Document\'92s Scope)
+\f0\b0 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa160\partightenfactor0
+\ls7\ilvl0
+\f2\b \cf2 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Complexity:
+\f0\b0  This system appears incredibly complex, reflecting the substantial needs of a large archival institution.\
+\ls7\ilvl0
+\f2\b \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Technical Debt:
+\f0\b0  The sheer number of features suggests potential technical debt \'96 a need for refactoring and modernization.\
+\pard\pardeftab720\sa400\partightenfactor0
+\cf2 Do you want me to delve deeper into a specific aspect of these requirements (e.g., the rights management system, the search functionality, or a particular technical challenge)?}

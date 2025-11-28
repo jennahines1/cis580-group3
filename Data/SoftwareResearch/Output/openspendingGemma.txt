@@ -1,0 +1,52 @@
+I. High-Level Summary
+
+This document outlines a comprehensive suite of requirements for OpenSpending’s data publishing and consumption platform. It’s driven by a diverse set of user roles – Data Publishing Users, Data Consuming Users, Platform Administrators, API Users, and OpenSpending Community Members. Key themes include:
+
+Data Import & Processing: Support for multiple data formats (CSV, Excel, JSON, Google Sheets, Fiscal Data Package descriptor files) with robust validation.
+API Functionality: A powerful and flexible API for data access, normalization, and integration. This is a central element, allowing developers to build sophisticated applications.
+Data Visualization & Consumption: Diverse visualization options (treemap, bubble tree, map, pivot table), along with search and filtering capabilities.
+User Management & Control: Granular control over data visibility, access, and permissions – essential for maintaining data quality and openness.
+Community Engagement: Features to foster community involvement through blog posts and examples.
+II. Categorization of Requirements
+
+We can categorize these requirements into the following groups:
+
+A. Data Ingestion & Transformation (Primarily Data Publishing User Needs)
+
+Format Support: CSV, Excel, JSON, Google Sheets, Fiscal Data Package descriptor files.
+Validation: Checking the validity of imported data.
+Normalization: Adjusting data to provide meaningful comparisons.
+Automatic Updates: Synchronizing data with source files.
+Hidden Data States: Ability to temporarily hide data before wider publication.
+B. API & Data Access (Shared across Roles)
+
+Data Retrieval: Accessing data through the API.
+Normalization: Applying contextual adjustments to data (population, geography, GDP, GINI).
+Relative Percentage Calculations: Determining proportions of data within a dataset.
+Persistent Visual State Storage: Saving and sharing visualization states.
+Flexible API Codes: Using HASC codes (country, region, city) for mapping.
+Dynamic Polygon Generation: Automatically creating map polygons based on queries.
+C. Data Visualization & Consumption (Shared across Roles)
+
+Visualization Types: Treemap, Bubble Tree, Map, Pivot Table
+Default Visualization (Multiple Years): Automatic selection of the most recent year for datasets with multiple years.
+Consistent Color Schemes: Maintaining uniform color palettes in visualizations.
+Embedded Viewer Customization: Changing colors and styling of embedded viewers.
+D. User Management & Access Control (Platform Administrator & Data Publishing User)
+
+Role-Based Permissions: Defining access levels based on user roles (Publisher, Administrator).
+Data Visibility Control: Managing dataset visibility (Public/Hidden).
+User Management: Setting usernames.
+E. Community & Support (OpenSpending Community Member)
+
+Blog & Examples: Providing a blog and examples of data usage.
+App for Examples: Facilitating the sharing of data visualization examples.
+F. Platform Administration & Technical Requirements
+
+API User Flexibility: The API user can determine if there is a publisher or administrator.
+III. Key Considerations & Challenges (Based on the Document’s Scope)
+
+Complexity: This is a very complex system with a large number of requirements. Managing the scope and potential technical debt will be a significant challenge.
+Normalization: The emphasis on data normalization highlights the need for a robust and well-defined normalization strategy.
+Customization: The desire for customization (colors, styling, polygon generation) will add significant development effort.
+Scalability: Supporting a large number of users and datasets will require a scalable architecture.
