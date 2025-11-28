@@ -56,12 +56,57 @@ granite_timing = [125, 43, 83, 0, 0, 0, 20.2, 25.2, 26]
 # durspace: Missing Functional & Non-Functional Requirements
 # archivespace: Missing Functional Requirements
 # racdam: Missing Non-Functional Requirements
-durspace_granite_functional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-durspace_granite_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-archivespace_granite_functional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-racdam_granite_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
+# Gemma Likert Lists
+# User Story: Racdam
+gemma_racdam_story = []
+gemma_racdam_functional = []
+gemma_racdam_nonfunctional = []
+
+# User Story: Archivespace
+gemma_archivespace_story = []
+gemma_archivespace_functional = []
+gemma_archivespace_nonfunctional = []
+
+# User Story: Duraspace
+gemma_duraspace_story = []
+gemma_duraspace_functional = []
+gemma_duraspace_nonfunctional = []
+
+
+# Llava Likert Lists
+# User Story: Racdam
+llava_racdam_story = []
+llava_racdam_functional = []
+llava_racdam_nonfunctional = []
+
+# User Story: Archivespace
+llava_archivespace_story = []
+llava_archivespace_functional = []
+llava_archivespace_nonfunctional = []
+
+# User Story: Duraspace
+llava_duraspace_story = []
+llava_duraspace_functional = []
 llava_durspace_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+
+# Granite Likert Lists
+# User Story: Racdam
+granite_racdam_story = []
+granite_racdam_functional = []
+granite_racdam_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+# User Story: Archivespace
+granite_archivespace_story = []
+granite_archivespace_functional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+granite_archivespace_nonfunctional = []
+
+# User Story: Duraspace
+granite_duraspace_story = []
+granite_duraspace_functional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+granite_duraspace_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
 
 
 
