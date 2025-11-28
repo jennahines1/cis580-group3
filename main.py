@@ -157,7 +157,7 @@ llava_zooniverse_nonfunctional = [2, 5, 1, 4, 3, 2, 3, 3, 1 ,2, 4, 4]
 # User Story: campersplus
 granite_campersplus_story = [5, 5, 5, 4, 4, 3, 4, 5, 5, 5, 5,2]
 granite_campersplus_functional = [5, 5, 5, 4, 4, 5, 4, 5, 5, 5, 3, 3]
-granite_campersplus_nonfunctional = [5, 5, '5, 4, 4, 4, 4, 4, 5, 5, 4, 4]
+granite_campersplus_nonfunctional = [5, 5, 5, 4, 4, 4, 4, 4, 5, 5, 4, 4]
 
 # User Story: planningpoker
 granite_planningpoker_story = [5, 5, 5, 4, 5, 5, 4, 4, 3, 4, 4, 3]
@@ -222,6 +222,7 @@ granite_culrepo_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 granite_rdadmp_story = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 granite_rdadmp_functional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 granite_rdadmp_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
 
 
 
