@@ -59,7 +59,7 @@ granite_timing = [125, 43, 83, 0, 0, 0, 20.2, 25.2, 26]
 
 # Gemma Likert Lists
 # User Story: Racdam
-gemma_racdam_story = []
+gemma_racdam_story = [5, 5, 4, 3, 4, 4, 5, 5, 4, 5, 4, 5]
 gemma_racdam_functional = [5, 5, 5, 4, 5, 5, 5, 5, 5, 4, 4, 5]
 gemma_racdam_nonfunctional = [4, 4, 3, 4, 5, 5, 5, 5, 4, 4, 5]
 
@@ -76,9 +76,9 @@ gemma_duraspace_nonfunctional = []
 
 # Llava Likert Lists
 # User Story: Racdam
-llava_racdam_story = []
-llava_racdam_functional = []
-llava_racdam_nonfunctional = []
+llava_racdam_story = [5, 5, 5, 1, 5, 5, 4, 5, 4, 5, 4, 5]
+llava_racdam_functional = [4, 5, 4, 4, 5, 3, 4, 5, 4, 5, 4, 5]
+llava_racdam_nonfunctional = [4, 5, 5, 5, 4, 4, 5, 5, 5, 5, 4, 5]
 
 # User Story: Archivespace
 llava_archivespace_story = []
@@ -93,7 +93,7 @@ llava_durspace_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 # Granite Likert Lists
 # User Story: Racdam
-granite_racdam_story = []
+granite_racdam_story = [4, 2, 4, 3, 4, 2, 3, 5, 4, 5, 4, 5]
 granite_racdam_functional = []
 granite_racdam_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
