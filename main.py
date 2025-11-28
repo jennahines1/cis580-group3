@@ -108,6 +108,7 @@ granite_duraspace_story = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 granite_duraspace_functional = [3, 1, 4, 2, 2, 2, 2, 3, 2, 3, 2, 1]
 granite_duraspace_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
+
 # Extracurriculars
 # MISSING = Automatic 1 Rating for All Scale Categories:
 # Gemma
@@ -143,30 +144,30 @@ llava_campersplus_nonfunctional = [3, 3, 2, 3, 3, 2, 4, 3, 3, 4, 4, 4]
 
 # User Story: planningpoker
 llava_planningpoker_story = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-llava_planningpoker_functional = ['Unambiguity', 'Consistency', 'Completeness', 'Modifiability', 'Feasibility', 'Clarity', 'Testability', 'Traceability', 'Usability', 'Correctness', 'Compatibility', 'Security']
-llava_planningpoker_nonfunctional = ['Unambiguity', 'Consistency', 'Completeness', 'Modifiability', 'Feasibility', 'Clarity', 'Testability', 'Traceability', 'Usability', 'Correctness', 'Compatibility', 'Security']
+llava_planningpoker_functional = [3, 4, 4, 4, 3, 3, 3, 2, 3, 4, 5, 2]
+llava_planningpoker_nonfunctional = [3, 3, 2, 4, 3, 2, 2, 1, 3, 2, 2, 2]
 
 # User Story: zooniverse
-llava_zooniverse_story =['Unambiguity', 'Consistency', 'Completeness', 'Modifiability', 'Feasibility', 'Clarity', 'Testability', 'Traceability', 'Usability', 'Correctness', 'Compatibility', 'Security']
-llava_zooniverse_functional = ['Unambiguity', 'Consistency', 'Completeness', 'Modifiability', 'Feasibility', 'Clarity', 'Testability', 'Traceability', 'Usability', 'Correctness', 'Compatibility', 'Security']
-llava_zooniverse_nonfunctional = ['Unambiguity', 'Consistency', 'Completeness', 'Modifiability', 'Feasibility', 'Clarity', 'Testability', 'Traceability', 'Usability', 'Correctness', 'Compatibility', 'Security']
+llava_zooniverse_story =[5, 5, 5, 4, 3, 4, 4, 5, 5, 5, 3, 4]
+llava_zooniverse_functional = [2, 2, 3, 3, 4,4, 2, 3, 4, 4, 4,4]
+llava_zooniverse_nonfunctional = [2, 5, 1, '4, 3, 2, 3, 3, 1 ,2, 4, 4]
 
 
 # Granite Likert Lists
 # User Story: campersplus
-granite_campersplus_story = ['Unambiguity', 'Consistency', 'Completeness', 'Modifiability', 'Feasibility', 'Clarity', 'Testability', 'Traceability', 'Usability', 'Correctness', 'Compatibility', 'Security']
-granite_campersplus_functional = ['Unambiguity', 'Consistency', 'Completeness', 'Modifiability', 'Feasibility', 'Clarity', 'Testability', 'Traceability', 'Usability', 'Correctness', 'Compatibility', 'Security']
-granite_campersplus_nonfunctional = ['Unambiguity', 'Consistency', 'Completeness', 'Modifiability', 'Feasibility', 'Clarity', 'Testability', 'Traceability', 'Usability', 'Correctness', 'Compatibility', 'Security']
+granite_campersplus_story = [5, 5, 5, 4, 4, 3, 4, 5, 5, 5, 5,2]
+granite_campersplus_functional = [5, 5, 5, 4, 4, 5, 4, 5, 5, 5, 3, 3]
+granite_campersplus_nonfunctional = [5, 5, '5, 4, 4, 4, 4, 4, 5, 5, 4, 4]
 
 # User Story: planningpoker
-granite_planningpoker_story = ['Unambiguity', 'Consistency', 'Completeness', 'Modifiability', 'Feasibility', 'Clarity', 'Testability', 'Traceability', 'Usability', 'Correctness', 'Compatibility', 'Security']
-granite_planningpoker_functional = ['Unambiguity', 'Consistency', 'Completeness', 'Modifiability', 'Feasibility', 'Clarity', 'Testability', 'Traceability', 'Usability', 'Correctness', 'Compatibility', 'Security']
-granite_planningpoker_nonfunctional = ['Unambiguity', 'Consistency', 'Completeness', 'Modifiability', 'Feasibility', 'Clarity', 'Testability', 'Traceability', 'Usability', 'Correctness', 'Compatibility', 'Security']
+granite_planningpoker_story = [5, 5, 5, 4, 5, 5, 4, 4, 3, 4, 4, 3]
+granite_planningpoker_functional = [5, 5,5, 4, 3, 3, 3, 3, 4, 4, 4, 2]
+granite_planningpoker_nonfunctional = [4, 4, 3, 4, 3, 2, 3, 2, 3, 2, 4, 2]
 
 # User Story: zooniverse
-granite_zooniverse_story = ['Unambiguity', 'Consistency', 'Completeness', 'Modifiability', 'Feasibility', 'Clarity', 'Testability', 'Traceability', 'Usability', 'Correctness', 'Compatibility', 'Security']
-granite_zooniverse_functional = ['Unambiguity', 'Consistency', 'Completeness', 'Modifiability', 'Feasibility', 'Clarity', 'Testability', 'Traceability', 'Usability', 'Correctness', 'Compatibility', 'Security']
-granite_zooniverse_nonfunctional = ['Unambiguity', 'Consistency', 'Completeness', 'Modifiability', 'Feasibility', 'Clarity', 'Testability', 'Traceability', 'Usability', 'Correctness', 'Compatibility', 'Security']
+granite_zooniverse_story = [5, 5, 5, 5, 5, 5, 4, 5, 5, 5, 3, 3]
+granite_zooniverse_functional = [5, 5, 5, 4, 5, 5, 3, 4, 5, 4, 5, 4]
+granite_zooniverse_nonfunctional = [5,5, 4,  3, 3, 4, 4, 5, 5, 5, 3, 4]
 
 #software/research databases
 #Missing
@@ -221,6 +222,7 @@ granite_culrepo_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 granite_rdadmp_story = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 granite_rdadmp_functional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 granite_rdadmp_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
 
 
 
