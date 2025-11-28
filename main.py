@@ -64,14 +64,14 @@ gemma_racdam_functional = [5, 5, 5, 4, 5, 5, 5, 5, 5, 4, 4, 5]
 gemma_racdam_nonfunctional = [4, 4, 3, 4, 5, 5, 5, 5, 4, 4, 5]
 
 # User Story: Archivespace
-gemma_archivespace_story = []
-gemma_archivespace_functional = []
-gemma_archivespace_nonfunctional = []
+gemma_archivespace_story = [5, 4, 4, 5, 5, 4, 5, 5, 4, 5, 5, 3]
+gemma_archivespace_functional = [5, 4, 5, 5, 5, 4, 5, 5, 4, 4, 5, 5]
+gemma_archivespace_nonfunctional = [4, 4, 4, 3, 4, 3, 3, 4, 4, 4, 4, 5]
 
 # User Story: Duraspace
-gemma_duraspace_story = []
-gemma_duraspace_functional = []
-gemma_duraspace_nonfunctional = []
+gemma_duraspace_story = [5, 4, 5, 4, 4, 5, 4, 5, 4, 4, 5, 5]
+gemma_duraspace_functional = [5, 5, 4, 3, 4, 4, 5, 5, 4, 5, 3, 5]
+gemma_duraspace_nonfunctional = [3, 3, 3, 3, 3, 3, 2, 2, 2, 1, 4, 3]
 
 
 # Llava Likert Lists
@@ -81,32 +81,32 @@ llava_racdam_functional = [4, 5, 4, 4, 5, 3, 4, 5, 4, 5, 4, 5]
 llava_racdam_nonfunctional = [4, 5, 5, 5, 4, 4, 5, 5, 5, 5, 4, 5]
 
 # User Story: Archivespace
-llava_archivespace_story = []
-llava_archivespace_functional = []
-llava_archivespace_nonfunctional = []
+# Provided an Identical Summary as Gemma did for Archivespace
+llava_archivespace_story = [5, 4, 4, 5, 5, 4, 5, 5, 4, 5, 5, 3]
+llava_archivespace_functional = [5, 3, 4, 4, 3, 4, 3, 4, 4, 4, 4, 5]
+llava_archivespace_nonfunctional = [5, 3, 3, 4, 4, 5, 5, 4, 4, 4, 5, 5]
 
 # User Story: Duraspace
-llava_duraspace_story = []
-llava_duraspace_functional = []
+llava_duraspace_story = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+llava_duraspace_functional = [5, 2, 2, 1, 1, 3, 1, 4, 1, 1, 1, 1]
 llava_durspace_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 
 # Granite Likert Lists
 # User Story: Racdam
 granite_racdam_story = [4, 2, 4, 3, 4, 2, 3, 5, 4, 5, 4, 5]
-granite_racdam_functional = []
+granite_racdam_functional = [4, 4, 3, 5, 4, 3, 4, 5, 4, 4, 5, 4]
 granite_racdam_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 # User Story: Archivespace
-granite_archivespace_story = []
+granite_archivespace_story = [5, 2, 4, 3, 4, 2, 2, 4, 3, 3, 3, 2]
 granite_archivespace_functional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-granite_archivespace_nonfunctional = []
+granite_archivespace_nonfunctional = [4, 2, 4, 2, 3, 2, 2, 4, 3, 2, 4, 1]
 
 # User Story: Duraspace
-granite_duraspace_story = []
-granite_duraspace_functional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+granite_duraspace_story = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+granite_duraspace_functional = [3, 1, 4, 2, 2, 2, 2, 3, 2, 3, 2, 1]
 granite_duraspace_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-
 
 # Extracurriculars
 # MISSING = Automatic 1 Rating for All Scale Categories:
