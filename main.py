@@ -89,7 +89,7 @@ llava_archivespace_nonfunctional = [5, 3, 3, 4, 4, 5, 5, 4, 4, 4, 5, 5]
 # User Story: Duraspace
 llava_duraspace_story = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 llava_duraspace_functional = [5, 2, 2, 1, 1, 3, 1, 4, 1, 1, 1, 1]
-llava_durspace_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+llava_duraspace_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 
 # Granite Likert Lists
@@ -222,6 +222,7 @@ granite_culrepo_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 granite_rdadmp_story = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 granite_rdadmp_functional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 granite_rdadmp_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
 
 
 
