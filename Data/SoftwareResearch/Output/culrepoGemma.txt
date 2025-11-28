@@ -1,0 +1,71 @@
+I. Functional Requirements (What the System Does)
+
+Deposit & Upload:
+Ability to upload diverse file types (documents, datasets, media, etc.).
+Support for large file uploads (over 1GB).
+Associate files with scholarly works (linking research outputs).
+Deposit files to multiple collections.
+Version control – manage and track different versions of files.
+Collection Management:
+Create and manage digital collections.
+Assign files to collections.
+Rename collections.
+Move collections.
+Metadata Management:
+Customizable metadata fields for deposit.
+Ability to search by metadata.
+Assign descriptive metadata to files.
+Support for DOIs.
+Version Control & Archiving:
+Ability to schedule items for archival based on defined policies.
+Support for embargo periods.
+User Accounts & Access Control:
+Administer patron accounts (create, modify, delete, manage subscriptions).
+Password management.
+Role-based access control (admins, users).
+Search & Discovery:
+Robust search functionality across all content.
+Harvest metadata from the repository for external discovery.
+Reporting & Monitoring:
+Admin dashboards to monitor repository activity.
+Tracking file uploads, downloads, and access.
+Workflow Support:
+Automated workflows for review and approval of deposits.
+II. Data Management Requirements (How the System Handles Data)
+
+Data Integrity & Redundancy:
+Robust mechanisms for data redundancy to prevent loss.
+Monitoring of data for changes or corruption.
+Formal plan for disposition of assets if the IR should cease.
+Metadata Standards:
+Adherence to established metadata standards for consistency.
+Data Retention Policies:
+Clear policies for how long data is retained.
+Data Backup & Recovery:
+Regular backups and disaster recovery procedures.
+Data Quality Assurance:
+Processes to ensure the accuracy and completeness of metadata.
+Data Transformation & Mapping
+Ability to transform/map data to a common set of standards.
+III. User/Access Requirements (Who Uses the System & How)
+
+Administrative Access:
+Admin users with full access to the system.
+Role-based access control for different levels of permissions.
+User Accounts & Authentication:
+Secure user accounts with password management.
+Search & Discovery (User Perspective):
+Intuitive search interface.
+Easy access to deposited content.
+Notifications & Alerts:
+Email notifications for new content, updates, and system alerts.
+Support & Communication:
+Channels for users to report issues and ask questions.
+User Training & Documentation:
+Resources to support users in depositing and accessing content.
+Key Themes & Considerations:
+
+Long-Term Preservation: A significant emphasis is placed on the long-term sustainability and preservation of content.
+Data Integrity: Ensuring the accuracy and reliability of data is paramount.
+Workflow Automation: The system should streamline the deposit and access process.
+User-Centric Design: The system needs to be easy to use for both depositors and users.

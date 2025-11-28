@@ -1,0 +1,23 @@
+High-level summary: The document "openspending.txt" outlines various requirements related to data management and visualization for OpenSpending. These requirements include providing support for various file formats (Excel, JSON, Google Spreadsheet, Fiscal Data Package descriptor file), ensuring data consistency and reliability, supporting user-defined dimensions and measures, offering customizable branding and color schemes, providing tools for searching and filtering datasets, supporting flexible API usage with HASC codes, allowing users to change some styling of embedded Viewer, translating data types hierarchies of Viewer while in embed mode for user convenience.
+
+Functional Requirements:
+
+Provide support for various file formats (Excel, JSON, Google Spreadsheet, Fiscal Data Package descriptor file).
+Ensure data consistency and reliability.
+Support user-defined dimensions and measures.
+Offer customizable branding and color schemes.
+Provide tools for searching and filtering datasets.
+Support flexible API usage with HASC codes.
+Allow users to change some styling of embedded Viewer.
+Translate data types hierarchies of Viewer while in embed mode for user convenience.
+Non-Functional Requirements:
+
+Ensure data consistency and reliability.
+Provide support for various file formats (Excel, JSON, Google Spreadsheet, Fiscal Data Package descriptor file).
+Support user-defined dimensions and measures.
+Offer customizable branding and color schemes.
+Provide tools for searching and filtering datasets.
+Support flexible API usage with HASC codes.
+Allow users to change some styling of embedded Viewer.
+Translate data types hierarchies of Viewer while in embed mode for user convenience.
+<|

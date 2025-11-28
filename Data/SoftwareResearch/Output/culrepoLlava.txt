@@ -1,0 +1,23 @@
+It appears you've listed several requests related to digital asset management, specifically within the context of a digital repository or institutional repository (IR). Here are some of the requests you mentioned:
+
+Create custom metadata fields: This would allow for better search capabilities and a more detailed description of items in the IR.
+Share files with different access levels: This is useful when sharing sensitive information among users.
+Upload large files while allowing downloading: This can be important for meeting funder requirements and ensuring long-term preservation of digital assets.
+Search for related reports/datasets (e.g., "see also"): This would help users find other relevant materials within the IR.
+Request email notification when new versions are available: Users can subscribe to notifications for updates on specific items.
+Download release calendar: A release calendar can help users keep track of upcoming reports/datasets.
+Quickly correct errors in metadata or documents: This ensures that the IR maintains accurate and up-to-date information.
+Set up or delete administrator accounts with various permission levels: This allows for easy management of IR administrators.
+Create a personal account to request email notification when new versions are available.
+Download report/dataset release calendar to load into own calendar: Users can track upcoming releases more effectively.
+Harvest useful metadata from the repository via OAI (Open Archives Initiative): This allows other repositories or systems to easily integrate and use Cornell's publications.
+Quickly resolve tech support issues: To ensure smooth operation of the IR.
+Upload, manage, and share data sets associated with research projects: This can be helpful for researchers in sharing their data in a controlled manner.
+Receive periodic reminders, including when something needs attention (e.g., next ingestion/approval steps), or something that might need to move from a current knowledge collection to Historical.
+Promote/share work through interactive maps: This can help visualize the scope and impact of research projects.
+Create a personal account to request email notification when new versions are available.
+Download report/dataset release calendar to load into own calendar.
+Preserve both content and metadata within the repository in a robust manner: Ensuring long-term accessibility and stability of digital assets.
+Trace the list of revisors to determine who uploaded an item to the repository: This can help with accountability and transparency.
+Pass ownership/management of assets to a successor: To ensure continuity in the management of the IR.
+These requests highlight various aspects of digital asset management, such as metadata customization, access control, error correction, notification services, data sharing, and long-term preservation. They also emphasize the importance of user experience, system integration, and efficient administration within an institutional repository or similar digital archiving environment.

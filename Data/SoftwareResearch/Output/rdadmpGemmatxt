@@ -1,0 +1,41 @@
+Okay, here’s a high-level summary of the requirements from the “rdadmp.txt” document, broken down into functional and non-functional categories, along with key themes and considerations.
+
+Overall Theme: The document emphasizes a robust and well-documented Data Management Plan (DMP) process, focused on ensuring data quality, accessibility, sustainability, compliance, and facilitating reuse. The goal is to create a plan that’s not just a formality, but a practical guide for managing research data throughout its lifecycle.
+
+I. Functional Requirements (What the DMP needs to do)
+
+Data Format Support: Extensive support for a variety of data formats (Excel, JSON, Google Sheets, Fiscal Data Package descriptor files). This is a core technical requirement.
+Customization & Branding: Allows for customizable branding and color schemes.
+Dimensions & Measures: Supports user-defined dimensions and measures, offering flexibility for analysis.
+Data Searching & Filtering: Provides tools for searching and filtering datasets.
+API Integration (HASC Codes): Supports flexible API usage utilizing HASC codes (likely for linking to data sources).
+Embedded Viewer Styling: Allows users to change the styling of embedded Viewer components.
+Viewer Data Type Translation: Translates data type hierarchies within the Viewer while in embed mode – crucial for user convenience.
+Metadata Import: Allows importing metadata captured using external tools, reducing duplication of effort.
+Costing & Resource Tracking: Provides sections for documenting costs and resources used.
+Data Sharing & Licensing: Includes sections to record intent to share data with licenses.
+Reference Linking: Enables linking research publications to DMP records within institutional repositories (CRIS and repositories).
+II. Non-Functional Requirements (How the DMP should be)
+
+Data Consistency & Reliability: A primary focus – the DMP must ensure accurate and trustworthy data.
+Flexibility & Adaptability: Supports user-defined elements and custom styling.
+Usability & Convenience: Features like Viewer styling and data type translation enhance the user experience.
+Documentation & Traceability: The DMP itself needs to be well-documented to ensure it can be understood and maintained.
+Compliance: The DMP is designed to ensure compliance with ethical standards, legal requirements, and funder mandates.
+Sustainability: The DMP should facilitate the long-term preservation and re-use of data.
+III. Key Considerations & Stakeholder Needs (Derived from the Detailed Requirements)
+
+Here’s a breakdown of key requirements, grouped by the stakeholder who requested them:
+
+Researcher: Central to the plan - needs to pre-populate information, manage licensing, link publications, track costs, and record data requirements.
+Data Manager: Responsible for overall data quality, governance, format support, documentation, and ensuring compliance.
+PI (Principal Investigator): Ultimately responsible for the DMP, defining data needs, and ensuring compliance.
+Repository Owner/Operator: Needs information about data volume, format, and security to assess storage needs and archiving capabilities.
+IT Manager/Staff: Concerned with technical requirements (format support, API integration, security), storage capacity, and infrastructure.
+Legal Officer: Requires information related to data sensitivity, privacy, and licensing.
+Ethics Manager: Concerned with data sensitivity and ensuring ethical data handling.
+Funders: Need to see data costs, compliance information, and the project's adherence to their rules.
+Archive Manager: Focuses on long-term preservation, metadata standards, and legal status.
+Research Evaluation Manager: Requires data information for citation counts and measuring impact.
+Faculty/Data Stewards: Need information about costs, roles, and responsibilities.
+Important Note: The document highlights the importance of a dynamic and adaptive DMP. It's not just a static document; it should be reviewed and updated as the project progresses and new information becomes available.
