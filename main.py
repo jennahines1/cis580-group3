@@ -110,60 +110,64 @@ granite_duraspace_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 # Extracurriculars
 # MISSING = Automatic 1 Rating for All Scale Categories:
-# Granite3.2:
+# Gemma
 # campersplus: Missing Functional & Non-Functional Requirements
-# planninggpoker: Missing Functional Requirements
-# zooniverse: Missing Non-Functional Requirements
+# planninggpoker: Missing Non-Functional Requirements
+# Llava
+# campersplus: Missing High Level Summary
+# planningpoker: Missing High Level Summary
+
 
 # Gemma Likert Lists
 # User Story: campersplus
-gemma_racdam_story = []
-gemma_racdam_functional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-gemma_racdam_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+gemma_campersplus_story = []
+gemma_campersplus_functional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+gemma_campersplus_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 # User Story: planningpoker
-gemma_archivespace_story = []
-gemma_archivespace_functional = []
-gemma_archivespace_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+gemma_planningpoker_story = []
+gemma_planningpoker_functional = []
+gemma_planningpoker_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 # User Story: zooniverse
-gemma_duraspace_story = []
-gemma_duraspace_functional = []
-gemma_duraspace_nonfunctional = []
+gemma_zooniverse_story = []
+gemma_zooniverse_functional = []
+gemma_zooniverse_nonfunctional = []
 
 
 # Llava Likert Lists
 # User Story: campersplus
-llava_racdam_story = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-llava_racdam_functional = []
-llava_racdam_nonfunctional = []
+llava_campersplus_story = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+llava_campersplus_functional = []
+llava_campersplus_nonfunctional = []
 
 # User Story: planningpoker
-llava_archivespace_story = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-llava_archivespace_functional = []
-llava_archivespace_nonfunctional = []
+llava_planningpoker_story = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+llava_planningpoker_functional = []
+llava_planningpoker_nonfunctional = []
 
 # User Story: zooniverse
-llava_duraspace_story = []
-llava_duraspace_functional = []
-llava_durspace_nonfunctional = []
+llava_zooniverse_story = []
+llava_zooniverse_functional = []
+llava_zooniverse_nonfunctional = []
 
 
 # Granite Likert Lists
 # User Story: campersplus
-granite_racdam_story = []
-granite_racdam_functional = []
-granite_racdam_nonfunctional = []
+granite_campersplus_story = []
+granite_campersplus_functional = []
+granite_campersplus_nonfunctional = []
 
 # User Story: planningpoker
-granite_archivespace_story = []
-granite_archivespace_functional = []
-granite_archivespace_nonfunctional = []
+granite_planningpoker_story = []
+granite_planningpoker_functional = []
+granite_planningpoker_nonfunctional = []
 
 # User Story: zooniverse
-granite_duraspace_story = []
-granite_duraspace_functional = []
-granite_duraspace_nonfunctional = []
+granite_zooniverse_story = []
+granite_zooniverse_functional = []
+granite_zooniverse_nonfunctional = []
+
 
 
 
