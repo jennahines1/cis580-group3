@@ -120,53 +120,53 @@ granite_duraspace_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 # Gemma Likert Lists
 # User Story: campersplus
-gemma_campersplus_story = []
+gemma_campersplus_story = [5, 4, 5, 3, 2, 5, 2, 5, 1, 4, 2, 2]
 gemma_campersplus_functional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 gemma_campersplus_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 # User Story: planningpoker
-gemma_planningpoker_story = []
-gemma_planningpoker_functional = []
+gemma_planningpoker_story = [5, 5, 5, 4, 4, 3, 2, 2, 3, 5, 3, 2]
+gemma_planningpoker_functional =  [3, 5, 3, 3, 3, 4, 4, 4, 3, 4, 4, 3]
 gemma_planningpoker_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 # User Story: zooniverse
-gemma_zooniverse_story = []
-gemma_zooniverse_functional = []
-gemma_zooniverse_nonfunctional = []
+gemma_zooniverse_story = [3, 2, 3, 4, 4, 4, 4, 4, 5, 5, 3, 3]
+gemma_zooniverse_functional = [3, 3, 4, 4, 2, 3, 4, 5, 3, 4, 4, 4]
+gemma_zooniverse_nonfunctional = [1, 3, 2, 4, 3, 2, 4, 2, 2, 4, 3, 3]
 
 
 # Llava Likert Lists
 # User Story: campersplus
 llava_campersplus_story = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-llava_campersplus_functional = []
-llava_campersplus_nonfunctional = []
+llava_campersplus_functional = [5, 5, 5, 2, 1, 4, 2, 5, 3, 5, 4, 2]
+llava_campersplus_nonfunctional = [3, 3, 2, 3, 3, 2, 4, 3, 3, 4, 4, 4]
 
 # User Story: planningpoker
 llava_planningpoker_story = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-llava_planningpoker_functional = []
-llava_planningpoker_nonfunctional = []
+llava_planningpoker_functional = ['Unambiguity', 'Consistency', 'Completeness', 'Modifiability', 'Feasibility', 'Clarity', 'Testability', 'Traceability', 'Usability', 'Correctness', 'Compatibility', 'Security']
+llava_planningpoker_nonfunctional = ['Unambiguity', 'Consistency', 'Completeness', 'Modifiability', 'Feasibility', 'Clarity', 'Testability', 'Traceability', 'Usability', 'Correctness', 'Compatibility', 'Security']
 
 # User Story: zooniverse
-llava_zooniverse_story = []
-llava_zooniverse_functional = []
-llava_zooniverse_nonfunctional = []
+llava_zooniverse_story =['Unambiguity', 'Consistency', 'Completeness', 'Modifiability', 'Feasibility', 'Clarity', 'Testability', 'Traceability', 'Usability', 'Correctness', 'Compatibility', 'Security']
+llava_zooniverse_functional = ['Unambiguity', 'Consistency', 'Completeness', 'Modifiability', 'Feasibility', 'Clarity', 'Testability', 'Traceability', 'Usability', 'Correctness', 'Compatibility', 'Security']
+llava_zooniverse_nonfunctional = ['Unambiguity', 'Consistency', 'Completeness', 'Modifiability', 'Feasibility', 'Clarity', 'Testability', 'Traceability', 'Usability', 'Correctness', 'Compatibility', 'Security']
 
 
 # Granite Likert Lists
 # User Story: campersplus
-granite_campersplus_story = []
-granite_campersplus_functional = []
-granite_campersplus_nonfunctional = []
+granite_campersplus_story = ['Unambiguity', 'Consistency', 'Completeness', 'Modifiability', 'Feasibility', 'Clarity', 'Testability', 'Traceability', 'Usability', 'Correctness', 'Compatibility', 'Security']
+granite_campersplus_functional = ['Unambiguity', 'Consistency', 'Completeness', 'Modifiability', 'Feasibility', 'Clarity', 'Testability', 'Traceability', 'Usability', 'Correctness', 'Compatibility', 'Security']
+granite_campersplus_nonfunctional = ['Unambiguity', 'Consistency', 'Completeness', 'Modifiability', 'Feasibility', 'Clarity', 'Testability', 'Traceability', 'Usability', 'Correctness', 'Compatibility', 'Security']
 
 # User Story: planningpoker
-granite_planningpoker_story = []
-granite_planningpoker_functional = []
-granite_planningpoker_nonfunctional = []
+granite_planningpoker_story = ['Unambiguity', 'Consistency', 'Completeness', 'Modifiability', 'Feasibility', 'Clarity', 'Testability', 'Traceability', 'Usability', 'Correctness', 'Compatibility', 'Security']
+granite_planningpoker_functional = ['Unambiguity', 'Consistency', 'Completeness', 'Modifiability', 'Feasibility', 'Clarity', 'Testability', 'Traceability', 'Usability', 'Correctness', 'Compatibility', 'Security']
+granite_planningpoker_nonfunctional = ['Unambiguity', 'Consistency', 'Completeness', 'Modifiability', 'Feasibility', 'Clarity', 'Testability', 'Traceability', 'Usability', 'Correctness', 'Compatibility', 'Security']
 
 # User Story: zooniverse
-granite_zooniverse_story = []
-granite_zooniverse_functional = []
-granite_zooniverse_nonfunctional = []
+granite_zooniverse_story = ['Unambiguity', 'Consistency', 'Completeness', 'Modifiability', 'Feasibility', 'Clarity', 'Testability', 'Traceability', 'Usability', 'Correctness', 'Compatibility', 'Security']
+granite_zooniverse_functional = ['Unambiguity', 'Consistency', 'Completeness', 'Modifiability', 'Feasibility', 'Clarity', 'Testability', 'Traceability', 'Usability', 'Correctness', 'Compatibility', 'Security']
+granite_zooniverse_nonfunctional = ['Unambiguity', 'Consistency', 'Completeness', 'Modifiability', 'Feasibility', 'Clarity', 'Testability', 'Traceability', 'Usability', 'Correctness', 'Compatibility', 'Security']
 
 
 
