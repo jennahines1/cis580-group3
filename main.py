@@ -150,7 +150,7 @@ llava_planningpoker_nonfunctional = [3, 3, 2, 4, 3, 2, 2, 1, 3, 2, 2, 2]
 # User Story: zooniverse
 llava_zooniverse_story =[5, 5, 5, 4, 3, 4, 4, 5, 5, 5, 3, 4]
 llava_zooniverse_functional = [2, 2, 3, 3, 4,4, 2, 3, 4, 4, 4,4]
-llava_zooniverse_nonfunctional = [2, 5, 1, '4, 3, 2, 3, 3, 1 ,2, 4, 4]
+llava_zooniverse_nonfunctional = [2, 5, 1, 4, 3, 2, 3, 3, 1 ,2, 4, 4]
 
 
 # Granite Likert Lists
@@ -222,6 +222,7 @@ granite_culrepo_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 granite_rdadmp_story = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 granite_rdadmp_functional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 granite_rdadmp_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
 
 
 
