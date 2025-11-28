@@ -168,6 +168,60 @@ granite_zooniverse_story = ['Unambiguity', 'Consistency', 'Completeness', 'Modif
 granite_zooniverse_functional = ['Unambiguity', 'Consistency', 'Completeness', 'Modifiability', 'Feasibility', 'Clarity', 'Testability', 'Traceability', 'Usability', 'Correctness', 'Compatibility', 'Security']
 granite_zooniverse_nonfunctional = ['Unambiguity', 'Consistency', 'Completeness', 'Modifiability', 'Feasibility', 'Clarity', 'Testability', 'Traceability', 'Usability', 'Correctness', 'Compatibility', 'Security']
 
+#software/research databases
+#Missing
+#Gemma – openspending and rdadmp nonfunctional
+#Llava – culrepo nonfunctional and functional – rdadmp story and nonfunctional – openspending story
+#Granite – everything was missing 
+
+# Gemma Likert Lists
+# User Story: Openspending
+gemma_openspending_story = [5, 5, 3, 4, 5, 5, 5, 5, 4, 4, 4, 4]
+gemma_openspending_functional = [5, 5, 3, 4, 5, 5, 5, 5, 4, 5, 3, 4]
+gemma_openspending_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+# User Story: Culrepo
+gemma_culrepo_story = [5, 5, 3, 5, 5, 5, 5, 5, 4, 4, 3, 4]
+gemma_culrepo_functional = [5, 5, 3, 5, 5, 5, 3, 5, 5, 5, 4, 5]
+gemma_culrepo_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+# User Story: Rdadmp
+gemma_rdadmp_story = [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
+gemma_rdadmp_functional = [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
+gemma_rdadmp_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+# Llava Likert Lists
+# User Story: Openspending
+llava_openspending_story = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+llava_openspending_functional = [5, 3, 5, 4, 5, 5, 3, 3, 5, 4, 3, 4]
+llava_openspending_nonfunctional = [5, 3, 5, 4, 5, 4, 3, 3, 5, 4, 3, 4]
+
+# User Story: Culrepo
+llava_culrepo_story = [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
+llava_culrepo_functional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+llava_culrepo_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+# User Story: Rdadmp
+llava_rdadmp_story = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+llava_rdadmp_functional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+llava_rdadmp_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+# Granite Likert Lists
+# User Story: Openspending
+granite_openspending_story = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+granite_openspending_functional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+granite_openspending_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+# User Story: Culrepo
+granite_culrepo_story = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+granite_culrepo_functional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+granite_culrepo_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+# User Story: Rdadmp
+granite_rdadmp_story = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+granite_rdadmp_functional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+granite_rdadmp_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
 
 
 
