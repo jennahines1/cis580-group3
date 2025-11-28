@@ -42,18 +42,13 @@ likert_scale = ['Unambiguity', 'Consistency', 'Completeness', 'Modifiability', '
 likert_rating = [1, 2, 3, 4, 5]
 
 
-
-
+# Data for Digital Archives Section-
 # Timing of Each LLM, Order: 0: Racdam, 1: Archivespace, 2: Duraspace, 3: Openspending, 4: Culrepo, 5: Rdadmp, 6: Planningpoker, 7: Zooinverse, 8: Campersplus
 # 0's in Place of Rest Until Jenna and Sierra Fill Theirs in
 # Using Total Number of Seconds for Time
 gemma_timing = [107, 51, 112, 0, 0, 0, 14.4,10.5,12.4]
 llava_timing = [238, 312, 236, 0, 0, 0, 14, 15.2,15.40]
 granite_timing = [125, 43, 83, 0, 0, 0, 20.2, 25.2, 26]
-
-
-
-
 
 # Digital Archives
 # MISSING = Automatic 1 Rating for All Scale Categories:
@@ -67,4 +62,8 @@ archivespace_granite_functional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 racdam_granite_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 llava_durspace_nonfunctional = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+
+
+
 
