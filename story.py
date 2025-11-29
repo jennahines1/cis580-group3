@@ -4,6 +4,9 @@
 # Define and Create Arrays for which LLM's contain the Likert rankings, and which category they pertain to
 import seaborn as sns
 
+# Call Main Code
+main
+
 
 # Story Array
 story = {
