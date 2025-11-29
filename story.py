@@ -90,7 +90,7 @@ def plot_likert_category_heatmap(story):
     # plotting heatmap
     plt.figure(figsize=(14, 8))
     sns.heatmap(matrix, annot=True, cmap="YlGnBu", vmin=1, vmax=5)
-    plt.title("Average Story Likert Scores\nAcross All LLMs (Category vs Dataset)")
+    plt.title("Average Summary Likert Scores\nAcross All LLMs (Category vs Dataset)")
     plt.xlabel("Dataset")
     plt.ylabel("Likert Category")
     plt.tight_layout()
