@@ -50,20 +50,21 @@ story = {
 rows = []
 for model, datasets in story.items():
     for ds, data in datasets.items():
+        # Create Averages for Each Likert Ranking
         story_avg = float(np.mean(data["Story"]))
         rows.append({"Model": model, "Dataset": ds, "Story_Avg": story_avg})
+# DF across all LLMS, and Datasets for Each Likert Category 
 story_comparison_df = pd.DataFrame(rows)
 story_comparison_df = story_comparison_df.sort_values(by=["Model", "Dataset"]).reset_index(drop=True)
 
 
-# Function for Plotting Model v 
-def plot_story_heatmap(story_comparison_df):
+# Function for Plotting Models
+def plot_summary_heatmap(story_comparison_df):
+    # Create Heatmap 
     heatmap_df = story_comparison_df.pivot(index="Model", columns="Dataset", values="Story_Avg")
     plt.figure(figsize=(12, 4 + 0.25 * len(heatmap_df.columns)))
     sns.heatmap(heatmap_df, annot=True, fmt=".2f", cmap="YlOrBr", vmin=1, vmax=5)
-    plt.title("StoryLikert Score Heatmap (average across 12 metrics)")
-    plt.tight_layout()
-    plt.show()
+    plt.title("Summary Likert Score Heatmap (average across ALL metrics)")
 
    
 def plot_likert_category_heatmap(story):
@@ -93,15 +94,45 @@ def plot_likert_category_heatmap(story):
     plt.title("Average Summary Likert Scores\nAcross All LLMs (Category vs Dataset)")
     plt.xlabel("Dataset")
     plt.ylabel("Likert Category")
-    plt.tight_layout()
-    plt.show()
+    
+def plot_likert_llm_graph(story, likert_scale):
+    
+    results = []
 
-    return matrix
+    for model, datasets in story.items():
+        # collect all scores for that model across all datasets
+        all_scores = np.array([datasets[ds]["Story"] for ds in datasets])
+        avg_per_category = all_scores.mean(axis=0)
+
+        results.append(pd.DataFrame({
+            "Model": model,
+            "Likert_Category": likert_scale,
+            "Avg_Score": avg_per_category
+        }))
+
+    line_df = pd.concat(results)
+
+    plt.figure(figsize=(14, 7))
+    sns.lineplot(
+        data=line_df,
+        x="Likert_Category",
+        y="Avg_Score",
+        hue="Model",
+        marker="o"
+    )
+
+    plt.title("Average Likert Score of Summaries Across Each Dataset for Each LLM")
+    plt.ylabel("Average Score")
+    plt.ylim(1, 5)
+
 
 # Plot Code
 
 # Heatmap LLMs v Datasets, avg Likert Score amongst each for the Summary
-plot_story_heatmap(story_comparison_df)
+plot_summary_heatmap(story_comparison_df)
 
 # Heatmap Dataset vs Likert Rankings, avg Likert score across all LLM's 
 plot_likert_category_heatmap(story)
+
+# Average Score across each Likert category
+plot_likert_llm_graph(story, likert_scale)
