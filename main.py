@@ -61,7 +61,7 @@ granite_timing = [125, 43, 83, 0, 0, 0, 20.2, 25.2, 26]
 # User Story: Racdam
 gemma_racdam_story = [5, 5, 4, 3, 4, 4, 5, 5, 4, 5, 4, 5]
 gemma_racdam_functional = [5, 5, 5, 4, 5, 5, 5, 5, 5, 4, 4, 5]
-gemma_racdam_nonfunctional = [4, 4, 3, 4, 5, 5, 5, 5, 4, 4, 5]
+gemma_racdam_nonfunctional = [5, 4, 4, 3, 4, 5, 5, 5, 5, 4, 4, 5]
 
 # User Story: Archivespace
 gemma_archivespace_story = [5, 4, 4, 5, 5, 4, 5, 5, 4, 5, 5, 3]
