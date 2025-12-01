@@ -8,7 +8,10 @@ from matplotlib.patches import PathPatch
 
 # Call to Main
 main
+# Call to Jenna's Nonfunctional File for Arrays
 nonfunc
+# Call to Jenna's Story File for Arrays
+story
 
 
 functional = {
@@ -46,10 +49,6 @@ functional = {
         "campersplus": {"Functional": granite_campersplus_functional}
     }
 }
-
-
-
-
 
 
 # Gemma Array
