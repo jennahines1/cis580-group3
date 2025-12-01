@@ -520,5 +520,84 @@ plt.show()
 #granite_comparison_df
 
 
+# Scatter Plot 
+
+def scatter_all(llm, likert_scale):
+    results = []
+    for model, datasets in llm.items():
+        all_scores = np.array([datasets[ds]["all_llm"] for ds in datasets])
+        avg_per_category = all_scores.mean(axis=0)
+        results.append(pd.DataFrame({
+            "Model": model,
+            "Likert Category": likert_scale,
+            "Avg_Score": avg_per_category
+        }))
+    scatter_df = pd.concat(results)
+    plt.figure(figsize=(11, 7))
+    sns.scatterplot(
+        data= scatter_df,
+        x="Likert Category",
+        y="Avg_Score",
+        hue="Model",
+        palette="gnuplot2",
+        marker="8"
+    )
+    plt.title("LLM Average Comparison")
+    plt.ylabel("Average Score")
+    plt.ylim(1, 5)
+    plt.xticks(fontsize = 7, rotation=65)
+    plt.show()
+
+scatter_all(llm, likert_scale)
+
+# Bar Plot to See how the Different LLMS Compared to One ANother
+
+def bar_all(llm, likert_scale):
+    results = []
+    for model, datasets in llm.items():
+        all_scores = np.array([datasets[ds]["all_llm"] for ds in datasets])
+        avg_per_category = all_scores.mean(axis=0)
+        results.append(pd.DataFrame({
+            "Model": model,
+            "Likert Category": likert_scale,
+            "Avg_Score": avg_per_category
+        }))
+    bar_df = pd.concat(results)
+    plt.figure(figsize=(11, 7))
+    sns.barplot(
+        x="Likert Category",
+        y="Avg_Score",
+        data = bar_df, 
+        hue="Model",
+        palette= 'gnuplot2'
+    )
+    plt.title("LLM Average Comparison")
+    plt.ylabel("Average Score")
+    plt.ylim(1, 5)
+    plt.xticks(fontsize = 7, rotation = 65)
+    plt.show()
+
+
+
+bar_all(llm, likert_scale)
+
+
+
+# Time Data
+# This really just proved that the LLM Performance Was Machine Dependent
+time_data = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+plt.plot(time_data, gemma_timing, color = 'blue', marker="8", label='Gemma')
+plt.plot(time_data, llava_timing, color = 'magenta', marker="8", label='Llava')
+plt.plot(time_data, granite_timing, color = 'orange', marker="8", label='Granite')
+
+plt.xlabel('Seconds')
+plt.ylabel('Value')
+plt.title('LLM Performance')
+
+plt.legend()
+plt.show()
+
+
 
 
