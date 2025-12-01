@@ -2,6 +2,15 @@
 
 # Changed Code to Fit w/Jenna's if Created Arrays Want to be Utilized Outside of This File
 # Then Can just Call This File to Use
+import string
+import numpy as np
+import pandas as pd
+import os
+import math
+import matplotlib
+import matplotlib.pyplot as plt
+import warnings
+from sklearn import metrics
 import seaborn as sns
 import matplotlib.ticker as ticker
 from matplotlib.patches import PathPatch
@@ -259,7 +268,167 @@ llm = {
 }
 
 
+# Changed the Code to be Utilized Outside of File, so Changed Graph Codes to Match Array Calls
+# Line Graph Showing Average of All LLM Rating's Against One Another
+llm_rows = []
+for model, datasets in llm.items():
+    for ds, data in datasets.items():
+        all_avg = float(np.mean(data["all_llm"]))
+        llm_rows.append({"Model": model, "Dataset": ds, "All_Avg": all_avg})
+all_comparison_df = pd.DataFrame(llm_rows)
+all_comparison_df = all_comparison_df.sort_values(by=["Model", "Dataset"]).reset_index(drop=True)
 
+def plot_all_graph(llm, likert_scale):
+    results = []
+    for model, datasets in llm.items():
+        all_scores = np.array([datasets[ds]["all_llm"] for ds in datasets])
+        avg_per_category = all_scores.mean(axis=0)
+        results.append(pd.DataFrame({
+            "Model": model,
+            "Likert Category": likert_scale,
+            "Avg_Score": avg_per_category
+        }))
+    line_df = pd.concat(results)
+    plt.figure(figsize=(11, 7))
+    sns.lineplot(
+        data=line_df,
+        x="Likert Category",
+        y="Avg_Score",
+        hue="Model",
+        palette="gnuplot2",
+        marker="8"
+    )
+    plt.title("LLM Average Comparison")
+    plt.ylabel("Average Score")
+    plt.ylim(1, 5)
+    plt.xticks(fontsize = 7, rotation = 65)
+    plt.show()
+
+plot_all_graph(llm, likert_scale)
+
+
+# Line Graphs for Each of the LLMs Displaying their Trends
+
+
+gemma_rows = []
+for model, datasets in gemma_llm.items():
+    for ds, data in datasets.items():
+        gemma_avg = float(np.mean(data["gemma"]))
+        gemma_rows.append({"Output Category": model, "Dataset": ds, "Gemma_Avg": gemma_avg})
+gemma_comparison_df = pd.DataFrame(gemma_rows)
+gemma_comparison_df = gemma_comparison_df.sort_values(by=["Output Category", "Dataset"]).reset_index(drop=True)
+
+def plot_gemma(gemma_llm, likert_scale):
+    results = []
+    for model, datasets in gemma_llm.items():
+        all_scores = np.array([datasets[ds]["gemma"] for ds in datasets])
+        avg_per_category = all_scores.mean(axis=0)
+        results.append(pd.DataFrame({
+            "Output Category": model,
+            "Likert Category": likert_scale,
+            "Avg_Score": avg_per_category
+        }))
+    line_df = pd.concat(results)
+    plt.figure(figsize=(11, 7))
+    sns.lineplot(
+        data=line_df,
+        x="Likert Category",
+        y="Avg_Score",
+        hue="Output Category",
+        palette="gnuplot2",
+        marker="8"
+    )
+    plt.title("Gemma Average")
+    plt.ylabel("Average Score")
+    plt.ylim(1, 5)
+    plt.xticks(fontsize = 7, rotation = 65)
+    plt.show()
+
+
+plot_gemma(gemma_llm, likert_scale)
+
+
+
+llava_rows = []
+for model, datasets in llava_llm.items():
+    for ds, data in datasets.items():
+        llava_avg = float(np.mean(data["llava"]))
+        llava_rows.append({"Output Category": model, "Dataset": ds, "Llava_Avg": llava_avg})
+llava_comparison_df = pd.DataFrame(llava_rows)
+llava_comparison_df = llava_comparison_df.sort_values(by=["Output Category", "Dataset"]).reset_index(drop=True)
+
+def plot_llava(llava_llm, likert_scale):
+    results = []
+    for model, datasets in llava_llm.items():
+        all_scores = np.array([datasets[ds]["llava"] for ds in datasets])
+        avg_per_category = all_scores.mean(axis=0)
+        results.append(pd.DataFrame({
+            "Output Category": model,
+            "Likert Category": likert_scale,
+            "Avg_Score": avg_per_category
+        }))
+    line_df = pd.concat(results)
+    plt.figure(figsize=(11, 7))
+    sns.lineplot(
+        data=line_df,
+        x="Likert Category",
+        y="Avg_Score",
+        hue="Output Category",
+        palette="gnuplot2",
+        marker="8"
+    )
+    plt.title("Llava Average")
+    plt.ylabel("Average Score")
+    plt.ylim(1, 5)
+    plt.xticks(fontsize = 7, rotation = 65)
+    plt.show()
+
+
+plot_llava(llava_llm, likert_scale)
+
+
+
+
+rows_granite = []
+for model, datasets in granite_llm.items():
+    for ds, data in datasets.items():
+        granite_avg = float(np.mean(data["granite"]))
+        rows_granite.append({"Output Category": model, "Dataset": ds, "granite_Avg": granite_avg})
+granite_comparison_df = pd.DataFrame(rows_granite)
+granite_comparison_df = granite_comparison_df.sort_values(by=["Output Category", "Dataset"]).reset_index(drop=True)
+
+
+
+
+def plot_granite(granite_llm, likert_scale):
+    results = []
+    for model, datasets in granite_llm.items():
+        all_scores = np.array([datasets[ds]["granite"] for ds in datasets])
+        avg_per_category = all_scores.mean(axis=0)
+        results.append(pd.DataFrame({
+            "Output Category": model,
+            "Likert Category": likert_scale,
+            "Avg_Score": avg_per_category
+        }))
+    line_df = pd.concat(results)
+    #plt.figure(figsize=(14, 7))
+    plt.figure(figsize=(11, 7))
+    sns.lineplot(
+        data=line_df,
+        x="Likert Category",
+        y="Avg_Score",
+        hue="Output Category",
+        palette="gnuplot2",
+        marker="8"
+    )
+    plt.title("Granite Average")
+    plt.ylabel("Average Score")
+    plt.ylim(1, 5)
+    plt.xticks(fontsize = 7, rotation = 65)
+    plt.show()
+
+
+plot_granite(granite_llm, likert_scale)
 
 
 
