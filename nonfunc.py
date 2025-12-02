@@ -6,10 +6,40 @@ import seaborn as sns
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
+import numpy as np
 
 
 # Call Main Code
-main
+from main import (
+    likert_scale,
+    gemma_racdam_nonfunctional,
+    gemma_archivespace_nonfunctional,
+    gemma_duraspace_nonfunctional,
+    llava_racdam_nonfunctional,
+    llava_archivespace_nonfunctional,
+    llava_duraspace_nonfunctional,
+    granite_racdam_nonfunctional,
+    granite_archivespace_nonfunctional,
+    granite_duraspace_nonfunctional,
+    gemma_openspending_nonfunctional, 
+    gemma_planningpoker_nonfunctional, 
+    gemma_campersplus_nonfunctional, 
+    gemma_culrepo_nonfunctional,
+    gemma_zooniverse_nonfunctional,
+    gemma_rdadmp_nonfunctional,
+    llava_openspending_nonfunctional, 
+    llava_culrepo_nonfunctional,
+    llava_rdadmp_nonfunctional,
+    llava_planningpoker_nonfunctional,
+     llava_zooniverse_nonfunctional,
+    llava_campersplus_nonfunctional,
+    granite_openspending_nonfunctional,
+     granite_culrepo_nonfunctional,
+     granite_rdadmp_nonfunctional,
+      granite_planningpoker_nonfunctional,
+     granite_zooniverse_nonfunctional,
+     granite_campersplus_nonfunctional)
+
 
 
 # Non Functional Array
