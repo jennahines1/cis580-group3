@@ -7,75 +7,44 @@ import os
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-
-
-# Call Main Code
-from main import (
-    likert_scale,
-    gemma_racdam_nonfunctional,
-    gemma_archivespace_nonfunctional,
-    gemma_duraspace_nonfunctional,
-    llava_racdam_nonfunctional,
-    llava_archivespace_nonfunctional,
-    llava_duraspace_nonfunctional,
-    granite_racdam_nonfunctional,
-    granite_archivespace_nonfunctional,
-    granite_duraspace_nonfunctional,
-    gemma_openspending_nonfunctional, 
-    gemma_planningpoker_nonfunctional, 
-    gemma_campersplus_nonfunctional, 
-    gemma_culrepo_nonfunctional,
-    gemma_zooniverse_nonfunctional,
-    gemma_rdadmp_nonfunctional,
-    llava_openspending_nonfunctional, 
-    llava_culrepo_nonfunctional,
-    llava_rdadmp_nonfunctional,
-    llava_planningpoker_nonfunctional,
-     llava_zooniverse_nonfunctional,
-    llava_campersplus_nonfunctional,
-    granite_openspending_nonfunctional,
-     granite_culrepo_nonfunctional,
-     granite_rdadmp_nonfunctional,
-      granite_planningpoker_nonfunctional,
-     granite_zooniverse_nonfunctional,
-     granite_campersplus_nonfunctional)
+import main 
 
 
 
 # Non Functional Array
 non_functional = {
     "Gemma3": {
-        "racdam": {"NonFunctional": gemma_racdam_nonfunctional},
-        "archivespace": {"NonFunctional": gemma_archivespace_nonfunctional},
-        "duraspace": {"NonFunctional": gemma_duraspace_nonfunctional},
-        "openspending": {"NonFunctional": gemma_openspending_nonfunctional},
-        "culrepo": {"NonFunctional": gemma_culrepo_nonfunctional},
-        "rdadmp": { "NonFunctional": gemma_rdadmp_nonfunctional},
-        "planningpoker": {"NonFunctional": gemma_planningpoker_nonfunctional},
-        "zooinverse": {"NonFunctional": gemma_zooniverse_nonfunctional},
-        "campersplus": {"NonFunctional": gemma_campersplus_nonfunctional}
+        "racdam": {"NonFunctional": main.gemma_racdam_nonfunctional},
+        "archivespace": {"NonFunctional": main.gemma_archivespace_nonfunctional},
+        "duraspace": {"NonFunctional": main.gemma_duraspace_nonfunctional},
+        "openspending": {"NonFunctional": main.gemma_openspending_nonfunctional},
+        "culrepo": {"NonFunctional": main.gemma_culrepo_nonfunctional},
+        "rdadmp": { "NonFunctional": main.gemma_rdadmp_nonfunctional},
+        "planningpoker": {"NonFunctional": main.gemma_planningpoker_nonfunctional},
+        "zooinverse": {"NonFunctional": main.gemma_zooniverse_nonfunctional},
+        "campersplus": {"NonFunctional": main.gemma_campersplus_nonfunctional}
     },
     "Llava": {
-        "racdam": {"NonFunctional": llava_racdam_nonfunctional},
-        "archivespace": {"NonFunctional": llava_archivespace_nonfunctional},
-        "duraspace": {"NonFunctional": llava_duraspace_nonfunctional},
-        "openspending": {"NonFunctional": llava_openspending_nonfunctional},
-        "culrepo": {"NonFunctional": llava_culrepo_nonfunctional},
-        "rdadmp": {"NonFunctional": llava_rdadmp_nonfunctional},
-        "planningpoker": {"NonFunctional": llava_planningpoker_nonfunctional},
-        "zooinverse": {"NonFunctional": llava_zooniverse_nonfunctional},
-        "campersplus": {"NonFunctional": llava_campersplus_nonfunctional}
+        "racdam": {"NonFunctional": main.llava_racdam_nonfunctional},
+        "archivespace": {"NonFunctional": main.llava_archivespace_nonfunctional},
+        "duraspace": {"NonFunctional": main.llava_duraspace_nonfunctional},
+        "openspending": {"NonFunctional": main.llava_openspending_nonfunctional},
+        "culrepo": {"NonFunctional": main.llava_culrepo_nonfunctional},
+        "rdadmp": {"NonFunctional": main.llava_rdadmp_nonfunctional},
+        "planningpoker": {"NonFunctional": main.llava_planningpoker_nonfunctional},
+        "zooinverse": {"NonFunctional": main.llava_zooniverse_nonfunctional},
+        "campersplus": {"NonFunctional": main.llava_campersplus_nonfunctional}
     },
     "Granite3.2": {
-        "racdam": { "NonFunctional": granite_racdam_nonfunctional},
-        "archivespace": {"NonFunctional": granite_archivespace_nonfunctional},
-        "duraspace": {"NonFunctional": granite_duraspace_nonfunctional},
-        "openspending": {"NonFunctional": granite_openspending_nonfunctional},
-        "culrepo": { "NonFunctional": granite_culrepo_nonfunctional},
-        "rdadmp": {"NonFunctional": granite_rdadmp_nonfunctional},
-        "planningpoker": {"NonFunctional": granite_planningpoker_nonfunctional},
-        "zooinverse": {"NonFunctional": granite_zooniverse_nonfunctional},
-        "campersplus": {"NonFunctional": granite_campersplus_nonfunctional}
+        "racdam": { "NonFunctional": main.granite_racdam_nonfunctional},
+        "archivespace": {"NonFunctional": main.granite_archivespace_nonfunctional},
+        "duraspace": {"NonFunctional": main.granite_duraspace_nonfunctional},
+        "openspending": {"NonFunctional": main.granite_openspending_nonfunctional},
+        "culrepo": { "NonFunctional": main.granite_culrepo_nonfunctional},
+        "rdadmp": {"NonFunctional": main.granite_rdadmp_nonfunctional},
+        "planningpoker": {"NonFunctional": main.granite_planningpoker_nonfunctional},
+        "zooinverse": {"NonFunctional": main.granite_zooniverse_nonfunctional},
+        "campersplus": {"NonFunctional": main.granite_campersplus_nonfunctional}
     }
 }
 
