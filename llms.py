@@ -298,7 +298,7 @@ def plot_all_graph(llm, likert_scale):
         palette="gnuplot2",
         marker="8"
     )
-    plt.title("LLM Average Comparison")
+    plt.title("LLM Averages")
     plt.ylabel("Average Score")
     plt.ylim(1, 5)
     plt.xticks(fontsize = 7, rotation = 65)
@@ -338,7 +338,7 @@ def plot_gemma(gemma_llm, likert_scale):
         palette="gnuplot2",
         marker="8"
     )
-    plt.title("Gemma Average")
+    plt.title("Gemma Average Scores")
     plt.ylabel("Average Score")
     plt.ylim(1, 5)
     plt.xticks(fontsize = 7, rotation = 65)
@@ -377,7 +377,7 @@ def plot_llava(llava_llm, likert_scale):
         palette="gnuplot2",
         marker="8"
     )
-    plt.title("Llava Average")
+    plt.title("Llava Average Scores")
     plt.ylabel("Average Score")
     plt.ylim(1, 5)
     plt.xticks(fontsize = 7, rotation = 65)
@@ -421,7 +421,7 @@ def plot_granite(granite_llm, likert_scale):
         palette="gnuplot2",
         marker="8"
     )
-    plt.title("Granite Average")
+    plt.title("Granite Average Scores")
     plt.ylabel("Average Score")
     plt.ylim(1, 5)
     plt.xticks(fontsize = 7, rotation = 65)
@@ -449,7 +449,7 @@ gemma_boxPlots = np.array(gemma_boxPlots)
 
 
 plt.boxplot(gemma_boxPlots, labels=gemma_labels)
-plt.title("Gemma LLM")
+plt.title("Gemma Box Plot")
 plt.ylabel('Scores')
 plt.xlabel('Categories')
 
@@ -471,7 +471,7 @@ llava_labels = list(llava_boxPlots)
 llava_boxPlots = np.array(llava_boxPlots)
 
 plt.boxplot(llava_boxPlots, labels=llava_labels)
-plt.title("Llava LLM")
+plt.title("Llava Box Plot")
 plt.ylabel('Scores')
 plt.xlabel('Categories')
 plt.show()
@@ -488,7 +488,7 @@ granite_labels = list(granite_boxPlots)
 granite_boxPlots = np.array(granite_boxPlots)
 
 plt.boxplot(granite_boxPlots, labels=granite_labels)
-plt.title("Granite LLM")
+plt.title("Granite Box Plot")
 plt.ylabel('Scores')
 plt.xlabel('Categories')
 plt.show()
@@ -507,7 +507,7 @@ all_llm_labels = list(all_llm)
 all_llm = np.array(all_llm)
 
 plt.boxplot(all_llm, labels=all_llm_labels)
-plt.title("Each LLM")
+plt.title("Each LLM BoxPlot")
 plt.ylabel('Scores')
 plt.xlabel('LLM')
 plt.show()
@@ -542,7 +542,7 @@ def scatter_all(llm, likert_scale):
         palette="gnuplot2",
         marker="8"
     )
-    plt.title("LLM Average Comparison")
+    plt.title("LLM Scatter Plot")
     plt.ylabel("Average Score")
     plt.ylim(1, 5)
     plt.xticks(fontsize = 7, rotation=65)
@@ -571,7 +571,7 @@ def bar_all(llm, likert_scale):
         hue="Model",
         palette= 'gnuplot2'
     )
-    plt.title("LLM Average Comparison")
+    plt.title("LLM Bar Chart")
     plt.ylabel("Average Score")
     plt.ylim(1, 5)
     plt.xticks(fontsize = 7, rotation = 65)
@@ -593,7 +593,7 @@ plt.plot(time_data, granite_timing, color = 'orange', marker="8", label='Granite
 
 plt.xlabel('Seconds')
 plt.ylabel('Value')
-plt.title('LLM Performance')
+plt.title('LLM Timing Performance')
 
 plt.legend()
 plt.show()
