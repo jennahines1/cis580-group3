@@ -33,7 +33,7 @@ To view the overall LLM results, type: python Llms.py
 To view the Stories results, type: python story.py
 To view the Functional Requirements results, type: python func.py
 To view the Non-Functional Requirements results, type: python nonfunc.py
-To run the test code, type: test_code.py
+
 
 
 
