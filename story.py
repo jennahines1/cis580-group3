@@ -3,45 +3,50 @@
 
 # Define and Create Arrays for which LLM's contain the Likert rankings, and which category they pertain to
 import seaborn as sns
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
 
-# Call Main Code
-main
+# Import entire main module to access story variables
+import main
+
+likert_scale = main.likert_scale
 
 
 # Story Array
 story = {
     "Gemma3": {
-        "racdam": {"Story": gemma_racdam_story},
-        "archivespace": {"Story": gemma_archivespace_story},
-        "duraspace": {"Story": gemma_duraspace_story},
-        "openspending": {"Story": gemma_openspending_story},
-        "culrepo": {"Story": gemma_culrepo_story},
-        "rdadmp": {"Story": gemma_rdadmp_story},
-        "planningpoker": {"Story": gemma_planningpoker_story},
-        "zooinverse": {"Story": gemma_zooniverse_story},
-        "campersplus": {"Story": gemma_campersplus_story}
+        "racdam": {"Story": main.gemma_racdam_story},
+        "archivespace": {"Story": main.gemma_archivespace_story},
+        "duraspace": {"Story": main.gemma_duraspace_story},
+        "openspending": {"Story": main.gemma_openspending_story},
+        "culrepo": {"Story": main.gemma_culrepo_story},
+        "rdadmp": {"Story": main.gemma_rdadmp_story},
+        "planningpoker": {"Story": main.gemma_planningpoker_story},
+        "zooinverse": {"Story": main.gemma_zooniverse_story},
+        "campersplus": {"Story": main.gemma_campersplus_story}
     },
     "Llava": {
-        "racdam": {"Story": llava_racdam_story},
-        "archivespace": {"Story": llava_archivespace_story},
-        "duraspace": {"Story": llava_duraspace_story},
-        "openspending": {"Story": llava_openspending_story},
-        "culrepo": {"Story": llava_culrepo_story},
-        "rdadmp": {"Story": llava_rdadmp_story},
-        "planningpoker": {"Story": llava_planningpoker_story},
-        "zooinverse": {"Story": llava_zooniverse_story},
-        "campersplus": {"Story": llava_campersplus_story}
+        "racdam": {"Story": main.llava_racdam_story},
+        "archivespace": {"Story": main.llava_archivespace_story},
+        "duraspace": {"Story": main.llava_duraspace_story},
+        "openspending": {"Story": main.llava_openspending_story},
+        "culrepo": {"Story": main.llava_culrepo_story},
+        "rdadmp": {"Story": main.llava_rdadmp_story},
+        "planningpoker": {"Story": main.llava_planningpoker_story},
+        "zooinverse": {"Story": main.llava_zooniverse_story},
+        "campersplus": {"Story": main.llava_campersplus_story}
     },
     "Granite3.2": {
-        "racdam": {"Story": granite_racdam_story},
-        "archivespace": {"Story": granite_archivespace_story},
-        "duraspace": {"Story": granite_duraspace_story},
-        "openspending": {"Story": granite_openspending_story},
-        "culrepo": {"Story": granite_culrepo_story},
-        "rdadmp": {"Story": granite_rdadmp_story},
-        "planningpoker": {"Story": granite_planningpoker_story},
-        "zooinverse": {"Story": granite_zooniverse_story},
-        "campersplus": {"Story": granite_campersplus_story}
+        "racdam": {"Story": main.granite_racdam_story},
+        "archivespace": {"Story": main.granite_archivespace_story},
+        "duraspace": {"Story": main.granite_duraspace_story},
+        "openspending": {"Story": main.granite_openspending_story},
+        "culrepo": {"Story": main.granite_culrepo_story},
+        "rdadmp": {"Story": main.granite_rdadmp_story},
+        "planningpoker": {"Story": main.granite_planningpoker_story},
+        "zooinverse": {"Story": main.granite_zooniverse_story},
+        "campersplus": {"Story": main.granite_campersplus_story}
     }
 }
 
@@ -65,6 +70,7 @@ def plot_summary_heatmap(story_comparison_df):
     plt.figure(figsize=(12, 4 + 0.25 * len(heatmap_df.columns)))
     sns.heatmap(heatmap_df, annot=True, fmt=".2f", cmap="YlOrBr", vmin=1, vmax=5)
     plt.title("Summary Likert Score Heatmap (average across ALL metrics)")
+   # plt.show()
 
    
 def plot_likert_category_heatmap(story):
@@ -94,6 +100,7 @@ def plot_likert_category_heatmap(story):
     plt.title("Average Summary Likert Scores\nAcross All LLMs (Category vs Dataset)")
     plt.xlabel("Dataset")
     plt.ylabel("Likert Category")
+    #plt.show()
     
 def plot_likert_llm_graph(story, likert_scale):
     
@@ -124,6 +131,7 @@ def plot_likert_llm_graph(story, likert_scale):
     plt.title("Average Likert Score of Summaries Across Each Dataset for Each LLM")
     plt.ylabel("Average Score")
     plt.ylim(1, 5)
+   # plt.show()
 
 
 # Plot Code
@@ -136,3 +144,5 @@ plot_likert_category_heatmap(story)
 
 # Average Score across each Likert category
 plot_likert_llm_graph(story, likert_scale)
+
+plt.show()

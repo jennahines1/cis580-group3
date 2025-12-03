@@ -1,0 +1,49 @@
+How to Deploy:
+Ensure you have python downloaded on your personal machine. 
+Navigate to: https://github.com/jennahines1/cis580-group3
+Select the Bright Green <> Code button drop down, then select Download Zip. 
+Unzip the file. 
+
+If you would like to view results from the LLM's themselves, Download Ollama to your personal computer via: https://ollama.com/download/
+
+The version, maxOS, Linux, or Windows depends on the system you have available.
+The Following LLM Models will be Utilized with Ollama:
+Gemma3
+Llava
+Granite3.2-vision
+
+To download the LLM models Ollama will run:
+Open a Command Prompt
+Type in:
+ollama pull gemma3
+ollama pull llava
+ollama pull granite3.2-vision
+
+Running the Application
+Open the Ollama Application
+Select the Model you want to employ by selecting the drop down button
+
+
+You can then provide the model with one of the User Stories provided within the Data folder, along with the prompt, "Read the following document "documentNameHere.txt", and provide a high-level summary of the requirements as well as a list of the functional and non-functional requirements. The output should be displayed to the screen"
+
+
+Open a command prompt and move to the files location using the cd command. 
+Each of the results can be viewed separately, this was to distribute the work and demo's accordingly.
+To view the overall LLM results, type: python Llms.py
+To view the Stories results, type: python story.py
+To view the Functional Requirements results, type: python func.py
+To view the Non-Functional Requirements results, type: python nonfunc.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+

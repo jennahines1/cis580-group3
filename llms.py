@@ -16,11 +16,93 @@ import matplotlib.ticker as ticker
 from matplotlib.patches import PathPatch
 
 # Call to Main
-main
+#import main
 # Call to Jenna's Nonfunctional File for Arrays
-nonfunc
+#import nonfunc
 # Call to Jenna's Story File for Arrays
-story
+#import story
+#
+
+from main import *
+
+likert_scale = ['Unambiguity', 'Consistency', 'Completeness', 'Modifiability', 'Feasibility', 'Clarity', 'Testability', 'Traceability', 'Usability', 'Correctness', 'Compatibility', 'Security']
+
+# Non Functional Array
+non_functional = {
+    "Gemma3": {
+        "racdam": {"NonFunctional": gemma_racdam_nonfunctional},
+        "archivespace": {"NonFunctional": gemma_archivespace_nonfunctional},
+        "duraspace": {"NonFunctional": gemma_duraspace_nonfunctional},
+        "openspending": {"NonFunctional": gemma_openspending_nonfunctional},
+        "culrepo": {"NonFunctional": gemma_culrepo_nonfunctional},
+        "rdadmp": { "NonFunctional": gemma_rdadmp_nonfunctional},
+        "planningpoker": {"NonFunctional": gemma_planningpoker_nonfunctional},
+        "zooinverse": {"NonFunctional": gemma_zooniverse_nonfunctional},
+        "campersplus": {"NonFunctional": gemma_campersplus_nonfunctional}
+    },
+    "Llava": {
+        "racdam": {"NonFunctional": llava_racdam_nonfunctional},
+        "archivespace": {"NonFunctional": llava_archivespace_nonfunctional},
+        "duraspace": {"NonFunctional": llava_duraspace_nonfunctional},
+        "openspending": {"NonFunctional": llava_openspending_nonfunctional},
+        "culrepo": {"NonFunctional": llava_culrepo_nonfunctional},
+        "rdadmp": {"NonFunctional": llava_rdadmp_nonfunctional},
+        "planningpoker": {"NonFunctional": llava_planningpoker_nonfunctional},
+        "zooinverse": {"NonFunctional": llava_zooniverse_nonfunctional},
+        "campersplus": {"NonFunctional": llava_campersplus_nonfunctional}
+    },
+    "Granite3.2": {
+        "racdam": { "NonFunctional": granite_racdam_nonfunctional},
+        "archivespace": {"NonFunctional": granite_archivespace_nonfunctional},
+        "duraspace": {"NonFunctional": granite_duraspace_nonfunctional},
+        "openspending": {"NonFunctional": granite_openspending_nonfunctional},
+        "culrepo": { "NonFunctional": granite_culrepo_nonfunctional},
+        "rdadmp": {"NonFunctional": granite_rdadmp_nonfunctional},
+        "planningpoker": {"NonFunctional": granite_planningpoker_nonfunctional},
+        "zooinverse": {"NonFunctional": granite_zooniverse_nonfunctional},
+        "campersplus": {"NonFunctional": granite_campersplus_nonfunctional}
+    }
+}
+
+
+
+# Story Array
+story = {
+    "Gemma3": {
+       "racdam": {"Story": gemma_racdam_story},
+        "archivespace": {"Story": gemma_archivespace_story},
+        "duraspace": {"Story": gemma_duraspace_story},
+        "openspending": {"Story": gemma_openspending_story},
+        "culrepo": {"Story": gemma_culrepo_story},
+        "rdadmp": {"Story": gemma_rdadmp_story},
+        "planningpoker": {"Story": gemma_planningpoker_story},
+        "zooinverse": {"Story": gemma_zooniverse_story},
+        "campersplus": {"Story": gemma_campersplus_story}
+    },
+    "Llava": {
+        "racdam": {"Story": llava_racdam_story},
+        "archivespace": {"Story": llava_archivespace_story},
+        "duraspace": {"Story": llava_duraspace_story},
+        "openspending": {"Story": llava_openspending_story},
+        "culrepo": {"Story": llava_culrepo_story},
+        "rdadmp": {"Story": llava_rdadmp_story},
+        "planningpoker": {"Story": llava_planningpoker_story},
+        "zooinverse": {"Story": llava_zooniverse_story},
+        "campersplus": {"Story": llava_campersplus_story}
+    },
+    "Granite3.2": {
+        "racdam": {"Story": granite_racdam_story},
+        "archivespace": {"Story": granite_archivespace_story},
+        "duraspace": {"Story": granite_duraspace_story},
+        "openspending": {"Story": granite_openspending_story},
+        "culrepo": {"Story": granite_culrepo_story},
+        "rdadmp": {"Story": granite_rdadmp_story},
+        "planningpoker": {"Story": granite_planningpoker_story},
+        "zooinverse": {"Story": granite_zooniverse_story},
+        "campersplus": {"Story": granite_campersplus_story}
+    }
+}
+
 
 
 functional = {
@@ -98,7 +180,6 @@ gemma_llm = {
 }
 
 
-
 # Llava Array
 llava_llm = {
     "Stories": {
@@ -137,7 +218,6 @@ llava_llm = {
 }
 
 
-
 # Granite Array
 granite_llm = {
     "Stories": {
@@ -174,7 +254,6 @@ granite_llm = {
         "campersplus": {"granite": granite_campersplus_nonfunctional}
     }
 }
-
 
 
 llm = {
@@ -268,6 +347,7 @@ llm = {
 }
 
 
+
 # Changed the Code to be Utilized Outside of File, so Changed Graph Codes to Match Array Calls
 # Line Graph Showing Average of All LLM Rating's Against One Another
 llm_rows = []
@@ -298,7 +378,7 @@ def plot_all_graph(llm, likert_scale):
         palette="gnuplot2",
         marker="8"
     )
-    plt.title("LLM Average Comparison")
+    plt.title("LLM Averages")
     plt.ylabel("Average Score")
     plt.ylim(1, 5)
     plt.xticks(fontsize = 7, rotation = 65)
@@ -338,7 +418,7 @@ def plot_gemma(gemma_llm, likert_scale):
         palette="gnuplot2",
         marker="8"
     )
-    plt.title("Gemma Average")
+    plt.title("Gemma Average Scores")
     plt.ylabel("Average Score")
     plt.ylim(1, 5)
     plt.xticks(fontsize = 7, rotation = 65)
@@ -377,7 +457,7 @@ def plot_llava(llava_llm, likert_scale):
         palette="gnuplot2",
         marker="8"
     )
-    plt.title("Llava Average")
+    plt.title("Llava Average Scores")
     plt.ylabel("Average Score")
     plt.ylim(1, 5)
     plt.xticks(fontsize = 7, rotation = 65)
@@ -421,7 +501,7 @@ def plot_granite(granite_llm, likert_scale):
         palette="gnuplot2",
         marker="8"
     )
-    plt.title("Granite Average")
+    plt.title("Granite Average Scores")
     plt.ylabel("Average Score")
     plt.ylim(1, 5)
     plt.xticks(fontsize = 7, rotation = 65)
@@ -449,7 +529,7 @@ gemma_boxPlots = np.array(gemma_boxPlots)
 
 
 plt.boxplot(gemma_boxPlots, labels=gemma_labels)
-plt.title("Gemma LLM")
+plt.title("Gemma Box Plot")
 plt.ylabel('Scores')
 plt.xlabel('Categories')
 
@@ -471,7 +551,7 @@ llava_labels = list(llava_boxPlots)
 llava_boxPlots = np.array(llava_boxPlots)
 
 plt.boxplot(llava_boxPlots, labels=llava_labels)
-plt.title("Llava LLM")
+plt.title("Llava Box Plot")
 plt.ylabel('Scores')
 plt.xlabel('Categories')
 plt.show()
@@ -488,7 +568,7 @@ granite_labels = list(granite_boxPlots)
 granite_boxPlots = np.array(granite_boxPlots)
 
 plt.boxplot(granite_boxPlots, labels=granite_labels)
-plt.title("Granite LLM")
+plt.title("Granite Box Plot")
 plt.ylabel('Scores')
 plt.xlabel('Categories')
 plt.show()
@@ -507,7 +587,7 @@ all_llm_labels = list(all_llm)
 all_llm = np.array(all_llm)
 
 plt.boxplot(all_llm, labels=all_llm_labels)
-plt.title("Each LLM")
+plt.title("Each LLM BoxPlot")
 plt.ylabel('Scores')
 plt.xlabel('LLM')
 plt.show()
@@ -542,7 +622,7 @@ def scatter_all(llm, likert_scale):
         palette="gnuplot2",
         marker="8"
     )
-    plt.title("LLM Average Comparison")
+    plt.title("LLM Scatter Plot")
     plt.ylabel("Average Score")
     plt.ylim(1, 5)
     plt.xticks(fontsize = 7, rotation=65)
@@ -571,7 +651,7 @@ def bar_all(llm, likert_scale):
         hue="Model",
         palette= 'gnuplot2'
     )
-    plt.title("LLM Average Comparison")
+    plt.title("LLM Bar Chart")
     plt.ylabel("Average Score")
     plt.ylim(1, 5)
     plt.xticks(fontsize = 7, rotation = 65)
@@ -593,7 +673,7 @@ plt.plot(time_data, granite_timing, color = 'orange', marker="8", label='Granite
 
 plt.xlabel('Seconds')
 plt.ylabel('Value')
-plt.title('LLM Performance')
+plt.title('LLM Timing Performance')
 
 plt.legend()
 plt.show()

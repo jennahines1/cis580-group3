@@ -6,46 +6,45 @@ import seaborn as sns
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
+import numpy as np
+import main 
 
-
-# Call Main Code
-main
 
 
 # Non Functional Array
 non_functional = {
     "Gemma3": {
-        "racdam": {"NonFunctional": gemma_racdam_nonfunctional},
-        "archivespace": {"NonFunctional": gemma_archivespace_nonfunctional},
-        "duraspace": {"NonFunctional": gemma_duraspace_nonfunctional},
-        "openspending": {"NonFunctional": gemma_openspending_nonfunctional},
-        "culrepo": {"NonFunctional": gemma_culrepo_nonfunctional},
-        "rdadmp": { "NonFunctional": gemma_rdadmp_nonfunctional},
-        "planningpoker": {"NonFunctional": gemma_planningpoker_nonfunctional},
-        "zooinverse": {"NonFunctional": gemma_zooniverse_nonfunctional},
-        "campersplus": {"NonFunctional": gemma_campersplus_nonfunctional}
+        "racdam": {"NonFunctional": main.gemma_racdam_nonfunctional},
+        "archivespace": {"NonFunctional": main.gemma_archivespace_nonfunctional},
+        "duraspace": {"NonFunctional": main.gemma_duraspace_nonfunctional},
+        "openspending": {"NonFunctional": main.gemma_openspending_nonfunctional},
+        "culrepo": {"NonFunctional": main.gemma_culrepo_nonfunctional},
+        "rdadmp": { "NonFunctional": main.gemma_rdadmp_nonfunctional},
+        "planningpoker": {"NonFunctional": main.gemma_planningpoker_nonfunctional},
+        "zooinverse": {"NonFunctional": main.gemma_zooniverse_nonfunctional},
+        "campersplus": {"NonFunctional": main.gemma_campersplus_nonfunctional}
     },
     "Llava": {
-        "racdam": {"NonFunctional": llava_racdam_nonfunctional},
-        "archivespace": {"NonFunctional": llava_archivespace_nonfunctional},
-        "duraspace": {"NonFunctional": llava_duraspace_nonfunctional},
-        "openspending": {"NonFunctional": llava_openspending_nonfunctional},
-        "culrepo": {"NonFunctional": llava_culrepo_nonfunctional},
-        "rdadmp": {"NonFunctional": llava_rdadmp_nonfunctional},
-        "planningpoker": {"NonFunctional": llava_planningpoker_nonfunctional},
-        "zooinverse": {"NonFunctional": llava_zooniverse_nonfunctional},
-        "campersplus": {"NonFunctional": llava_campersplus_nonfunctional}
+        "racdam": {"NonFunctional": main.llava_racdam_nonfunctional},
+        "archivespace": {"NonFunctional": main.llava_archivespace_nonfunctional},
+        "duraspace": {"NonFunctional": main.llava_duraspace_nonfunctional},
+        "openspending": {"NonFunctional": main.llava_openspending_nonfunctional},
+        "culrepo": {"NonFunctional": main.llava_culrepo_nonfunctional},
+        "rdadmp": {"NonFunctional": main.llava_rdadmp_nonfunctional},
+        "planningpoker": {"NonFunctional": main.llava_planningpoker_nonfunctional},
+        "zooinverse": {"NonFunctional": main.llava_zooniverse_nonfunctional},
+        "campersplus": {"NonFunctional": main.llava_campersplus_nonfunctional}
     },
     "Granite3.2": {
-        "racdam": { "NonFunctional": granite_racdam_nonfunctional},
-        "archivespace": {"NonFunctional": granite_archivespace_nonfunctional},
-        "duraspace": {"NonFunctional": granite_duraspace_nonfunctional},
-        "openspending": {"NonFunctional": granite_openspending_nonfunctional},
-        "culrepo": { "NonFunctional": granite_culrepo_nonfunctional},
-        "rdadmp": {"NonFunctional": granite_rdadmp_nonfunctional},
-        "planningpoker": {"NonFunctional": granite_planningpoker_nonfunctional},
-        "zooinverse": {"NonFunctional": granite_zooniverse_nonfunctional},
-        "campersplus": {"NonFunctional": granite_campersplus_nonfunctional}
+        "racdam": { "NonFunctional": main.granite_racdam_nonfunctional},
+        "archivespace": {"NonFunctional": main.granite_archivespace_nonfunctional},
+        "duraspace": {"NonFunctional": main.granite_duraspace_nonfunctional},
+        "openspending": {"NonFunctional": main.granite_openspending_nonfunctional},
+        "culrepo": { "NonFunctional": main.granite_culrepo_nonfunctional},
+        "rdadmp": {"NonFunctional": main.granite_rdadmp_nonfunctional},
+        "planningpoker": {"NonFunctional": main.granite_planningpoker_nonfunctional},
+        "zooinverse": {"NonFunctional": main.granite_zooniverse_nonfunctional},
+        "campersplus": {"NonFunctional": main.granite_campersplus_nonfunctional}
     }
 }
 
@@ -73,17 +72,17 @@ def plot_likert_category_heatmap(non_functional):
 
     # prepare empty matrix
     datasets = list(next(iter(non_functional.values())).keys())  # 9 datasets
-    matrix = pd.DataFrame(0.0, index=likert_scale, columns=datasets)
+    matrix = pd.DataFrame(0.0, index=main.likert_scale, columns=datasets)
 
     # count LLMs contributing to avg
-    counts = pd.DataFrame(0, index=likert_scale, columns=datasets)
+    counts = pd.DataFrame(0, index=main.likert_scale, columns=datasets)
 
     # accumulate values from all 3 LLMs
     for model, ds_dict in non_functional.items():
         for ds, scores in ds_dict.items():
             nonfunctional_scores = scores["NonFunctional"]
 
-            for i, category in enumerate(likert_scale):
+            for i, category in enumerate(main.likert_scale):
                 matrix.loc[category, ds] += nonfunctional_scores[i]
                 counts.loc[category, ds] += 1
 
@@ -139,10 +138,10 @@ plot_nonfunc_heatmap(nonfunc_comparison_df)
 plot_likert_category_heatmap(non_functional)
 
 # Average Score across each Likert category
-plot_likert_llm_graph(non_functional, likert_scale)
+plot_likert_llm_graph(non_functional, main.likert_scale)
 
 
-################################# Requirement Comparison Across LLM's ######################################
+################################# TEST CODE ######################################
 
 # Top Level Folder
 data_path = 'Data' 
