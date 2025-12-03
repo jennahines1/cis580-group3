@@ -72,17 +72,17 @@ def plot_likert_category_heatmap(non_functional):
 
     # prepare empty matrix
     datasets = list(next(iter(non_functional.values())).keys())  # 9 datasets
-    matrix = pd.DataFrame(0.0, index=likert_scale, columns=datasets)
+    matrix = pd.DataFrame(0.0, index=main.likert_scale, columns=datasets)
 
     # count LLMs contributing to avg
-    counts = pd.DataFrame(0, index=likert_scale, columns=datasets)
+    counts = pd.DataFrame(0, index=main.likert_scale, columns=datasets)
 
     # accumulate values from all 3 LLMs
     for model, ds_dict in non_functional.items():
         for ds, scores in ds_dict.items():
             nonfunctional_scores = scores["NonFunctional"]
 
-            for i, category in enumerate(likert_scale):
+            for i, category in enumerate(main.likert_scale):
                 matrix.loc[category, ds] += nonfunctional_scores[i]
                 counts.loc[category, ds] += 1
 
@@ -138,7 +138,7 @@ plot_nonfunc_heatmap(nonfunc_comparison_df)
 plot_likert_category_heatmap(non_functional)
 
 # Average Score across each Likert category
-plot_likert_llm_graph(non_functional, likert_scale)
+plot_likert_llm_graph(non_functional, main.likert_scale)
 
 
 ################################# TEST CODE ######################################
