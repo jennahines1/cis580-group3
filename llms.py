@@ -16,11 +16,93 @@ import matplotlib.ticker as ticker
 from matplotlib.patches import PathPatch
 
 # Call to Main
-import main
+#import main
 # Call to Jenna's Nonfunctional File for Arrays
-import nonfunc
+#import nonfunc
 # Call to Jenna's Story File for Arrays
-import story
+#import story
+#
+
+from main import *
+
+likert_scale = ['Unambiguity', 'Consistency', 'Completeness', 'Modifiability', 'Feasibility', 'Clarity', 'Testability', 'Traceability', 'Usability', 'Correctness', 'Compatibility', 'Security']
+
+# Non Functional Array
+non_functional = {
+    "Gemma3": {
+        "racdam": {"NonFunctional": gemma_racdam_nonfunctional},
+        "archivespace": {"NonFunctional": gemma_archivespace_nonfunctional},
+        "duraspace": {"NonFunctional": gemma_duraspace_nonfunctional},
+        "openspending": {"NonFunctional": gemma_openspending_nonfunctional},
+        "culrepo": {"NonFunctional": gemma_culrepo_nonfunctional},
+        "rdadmp": { "NonFunctional": gemma_rdadmp_nonfunctional},
+        "planningpoker": {"NonFunctional": gemma_planningpoker_nonfunctional},
+        "zooinverse": {"NonFunctional": gemma_zooniverse_nonfunctional},
+        "campersplus": {"NonFunctional": gemma_campersplus_nonfunctional}
+    },
+    "Llava": {
+        "racdam": {"NonFunctional": llava_racdam_nonfunctional},
+        "archivespace": {"NonFunctional": llava_archivespace_nonfunctional},
+        "duraspace": {"NonFunctional": llava_duraspace_nonfunctional},
+        "openspending": {"NonFunctional": llava_openspending_nonfunctional},
+        "culrepo": {"NonFunctional": llava_culrepo_nonfunctional},
+        "rdadmp": {"NonFunctional": llava_rdadmp_nonfunctional},
+        "planningpoker": {"NonFunctional": llava_planningpoker_nonfunctional},
+        "zooinverse": {"NonFunctional": llava_zooniverse_nonfunctional},
+        "campersplus": {"NonFunctional": llava_campersplus_nonfunctional}
+    },
+    "Granite3.2": {
+        "racdam": { "NonFunctional": granite_racdam_nonfunctional},
+        "archivespace": {"NonFunctional": granite_archivespace_nonfunctional},
+        "duraspace": {"NonFunctional": granite_duraspace_nonfunctional},
+        "openspending": {"NonFunctional": granite_openspending_nonfunctional},
+        "culrepo": { "NonFunctional": granite_culrepo_nonfunctional},
+        "rdadmp": {"NonFunctional": granite_rdadmp_nonfunctional},
+        "planningpoker": {"NonFunctional": granite_planningpoker_nonfunctional},
+        "zooinverse": {"NonFunctional": granite_zooniverse_nonfunctional},
+        "campersplus": {"NonFunctional": granite_campersplus_nonfunctional}
+    }
+}
+
+
+
+# Story Array
+story = {
+    "Gemma3": {
+       "racdam": {"Story": gemma_racdam_story},
+        "archivespace": {"Story": gemma_archivespace_story},
+        "duraspace": {"Story": gemma_duraspace_story},
+        "openspending": {"Story": gemma_openspending_story},
+        "culrepo": {"Story": gemma_culrepo_story},
+        "rdadmp": {"Story": gemma_rdadmp_story},
+        "planningpoker": {"Story": gemma_planningpoker_story},
+        "zooinverse": {"Story": gemma_zooniverse_story},
+        "campersplus": {"Story": gemma_campersplus_story}
+    },
+    "Llava": {
+        "racdam": {"Story": llava_racdam_story},
+        "archivespace": {"Story": llava_archivespace_story},
+        "duraspace": {"Story": llava_duraspace_story},
+        "openspending": {"Story": llava_openspending_story},
+        "culrepo": {"Story": llava_culrepo_story},
+        "rdadmp": {"Story": llava_rdadmp_story},
+        "planningpoker": {"Story": llava_planningpoker_story},
+        "zooinverse": {"Story": llava_zooniverse_story},
+        "campersplus": {"Story": llava_campersplus_story}
+    },
+    "Granite3.2": {
+        "racdam": {"Story": granite_racdam_story},
+        "archivespace": {"Story": granite_archivespace_story},
+        "duraspace": {"Story": granite_duraspace_story},
+        "openspending": {"Story": granite_openspending_story},
+        "culrepo": {"Story": granite_culrepo_story},
+        "rdadmp": {"Story": granite_rdadmp_story},
+        "planningpoker": {"Story": granite_planningpoker_story},
+        "zooinverse": {"Story": granite_zooniverse_story},
+        "campersplus": {"Story": granite_campersplus_story}
+    }
+}
+
 
 
 functional = {
@@ -98,7 +180,6 @@ gemma_llm = {
 }
 
 
-
 # Llava Array
 llava_llm = {
     "Stories": {
@@ -137,7 +218,6 @@ llava_llm = {
 }
 
 
-
 # Granite Array
 granite_llm = {
     "Stories": {
@@ -174,7 +254,6 @@ granite_llm = {
         "campersplus": {"granite": granite_campersplus_nonfunctional}
     }
 }
-
 
 
 llm = {
@@ -266,6 +345,7 @@ llm = {
         "campersplus": {"all_llm": granite_campersplus_nonfunctional}
     }
 }
+
 
 
 # Changed the Code to be Utilized Outside of File, so Changed Graph Codes to Match Array Calls
