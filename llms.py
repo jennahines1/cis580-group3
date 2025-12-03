@@ -16,11 +16,11 @@ import matplotlib.ticker as ticker
 from matplotlib.patches import PathPatch
 
 # Call to Main
-main
+import main
 # Call to Jenna's Nonfunctional File for Arrays
-nonfunc
+import nonfunc
 # Call to Jenna's Story File for Arrays
-story
+import story
 
 
 functional = {
